@@ -23,7 +23,7 @@
 | --- | --- |
 | МНС | `http://portal.nalog.gov.by/` |
 | ЭСЧФ / VAT | `http://vat.gov.by/` |
-| ФСЗН, новый корпоративный портал | `https://portal2.ssf.gov.by/fund/#/login_usd/usbtoken?autologin=usd` |
+| ФСЗН, новый корпоративный портал | `https://portal2.ssf.gov.by/mainPage/?step=payer` |
 | ФСЗН, старый портал | `http://portal.ssf.gov.by/mainPage/?step=2` |
 | Электронный респондент Белстата | `http://e-respondent.belstat.gov.by/belstat/` |
 | Регистрация валютных договоров | `https://rvd.nbrb.by/nbrbResidentUi/#/` |
@@ -54,7 +54,7 @@
 1. В `BELBUH-repo/web/index.html` обновлён массив `portals`.
 2. Добавлен портал ЭСЧФ / VAT по строке BELPORTAL `http://Vat.gov.by/`; в BELHUB URL нормализован до `http://vat.gov.by/`.
 3. Исправлены ссылки на порталы, которые в BELPORTAL открываются не с корня домена:
-   - ФСЗН: `https://portal2.ssf.gov.by/fund/#/login_usd/usbtoken?autologin=usd`;
+   - ФСЗН: `https://portal2.ssf.gov.by/mainPage/?step=payer`;
    - старый ФСЗН: `http://portal.ssf.gov.by/mainPage/?step=2`;
    - Белстат-респондент: `http://e-respondent.belstat.gov.by/belstat/`;
    - ЕГР: `https://egr.gov.by/egrn/egrportal.html?type=id-card`;
