@@ -6,19 +6,9 @@ on:
       - '**'
     tags:
       - 'v*'
-    paths:
-      - 'BELBUH-repo/**'
-      - '.github/workflows/build.yml'
-      - 'docs/**'
-      - 'README.md'
   pull_request:
     branches:
       - main
-    paths:
-      - 'BELBUH-repo/**'
-      - '.github/workflows/build.yml'
-      - 'docs/**'
-      - 'README.md'
   workflow_dispatch:
 
 permissions:
