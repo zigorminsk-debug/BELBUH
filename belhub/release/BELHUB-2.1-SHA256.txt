@@ -1,0 +1,2 @@
+7e65857c847961869cc2ad70fd106cec057b31fbd80141d787de9a733afb6d78  release/BELHUB-2.1-windows-x64.exe
+2cdda610bfd7156c985f20df4df8ce92f0e23165b9682fa448e11cf1990dcc56  release/BELHUB-2.1-windows-x86.exe

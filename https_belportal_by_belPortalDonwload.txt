@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html  lang="ru" prefix="og: http://ogp.me/ns#">
+<head>
+        
+    <base href="https://belportal.by/">
+<link href="https://belportal.by/design/alex_shop/fonts/montserrat/Montserrat-SemiBold.woff2" rel="preload" as="font" crossorigin="anonymous" type="font/woff2">
+<link href="https://belportal.by/design/alex_shop/fonts/montserrat/Montserrat-Bold.woff2" rel="preload" as="font" crossorigin="anonymous" type="font/woff2">
+<link href="https://belportal.by/design/alex_shop/fonts/montserrat/Montserrat-Regular.woff2" rel="preload" as="font" crossorigin="anonymous" type="font/woff2">
+<link href="https://belportal.by/design/alex_shop/fonts/montserrat/Montserrat-Medium.woff2" rel="preload" as="font" crossorigin="anonymous" type="font/woff2">
+<style>
+    @font-face {
+            font-family: 'Montserrat';
+            font-display: swap;
+            src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'),
+            url('https://belportal.by/design/alex_shop/fonts/montserrat/Montserrat-SemiBold.woff2') format('woff2'),
+            url('https://belportal.by/design/alex_shop/fonts/montserrat/Montserrat-SemiBold.woff') format('woff');
+            font-weight: 600;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Montserrat';
+            font-display: swap;
+            src: local('Montserrat Bold'), local('Montserrat-Bold'),
+            url('https://belportal.by/design/alex_shop/fonts/montserrat/Montserrat-Bold.woff2') format('woff2'),
+            url('https://belportal.by/design/alex_shop/fonts/montserrat/Montserrat-Bold.woff') format('woff');
+            font-weight: bold;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Montserrat';
+            font-display: swap;
+            src: local('Montserrat Regular'), local('Montserrat-Regular'),
+            url('https://belportal.by/design/alex_shop/fonts/montserrat/Montserrat-Regular.woff2') format('woff2'),
+            url('https://belportal.by/design/alex_shop/fonts/montserrat/Montserrat-Regular.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+        font-family: 'Montserrat';
+        font-display: swap;
+        src: local('Montserrat Medium'), local('Montserrat-Medium'),
+        url('https://belportal.by/design/alex_shop/fonts/montserrat/Montserrat-Medium.woff2') format('woff2'),
+        url('https://belportal.by/design/alex_shop/fonts/montserrat/Montserrat-Medium.woff') format('woff');
+        font-weight: 500;
+        font-style: normal;
+        }
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" >
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="/common_js/cfbfdc261d6bf2c986fdeb42c8182acf.js" defer></script>
+<link href="cache/css/alex_shop.head.765bb03517cdb88152d956be0225732f.css" type="text/css" rel="stylesheet">
+<script src="cache/js/alex_shop.head.fcf6d2b994774730eb072fb2172f5d42.js" defer></script>
+
+    
+        
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "WebSite",
+        "name": "belportal",
+        "url": "https://belportal.by/",
+        "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://belportal.by/all-products?keyword={search_term_string}",
+        "query-input": "required name=search_term_string"
+        }
+    }
+</script>
+
+
+        
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "belportal",
+        "url": "https://belportal.by/",
+        "logo": "https://belportal.by/files/images/logo.png",
+        "sameAs": [
+                    "https://t.me/BelPortal",                    "https://invite.viber.com/?g2=AQAeYG738SatNFJwDv33LeTqHKntbglbsr%2BsHY9g67cXG7yMyrZ0Wd96AyRDMLpe"                ]
+            }
+</script>
+
+    
+    <title>
+    Скачать BELPORTAL: установка, настройка и поддержка
+</title>
+    <meta name="keywords" content="скачать BELPORTAL, установка BELPORTAL, BELPORTAL инструкция, техническая поддержка BELPORTAL, AnyDesk подключение, AVEST CSP обновление, WebView2 установка, .NET Framework 4.7.2, проблемы с доступом к порталам, белый экран BELPORTAL"/>
+    <meta name="description" content="Загрузите BELPORTAL — удобное приложение для работы с госпорталами. Установка с технической поддержкой, проверка системы, обновление компонентов и демонстрация возможностей."/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="robots" content="index,follow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="By-CMS 1.0.8">
+
+
+        <meta property="og:title" content="Скачать BELPORTAL: установка, настройка и поддержка">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://belportal.by">
+    <meta property="og:image" content="https://belportal.by/files/images/logo.png">
+    <meta property="og:site_name" content="belportal">
+    <meta property="og:description" content="Загрузите BELPORTAL — удобное приложение для работы с госпорталами. Установка с технической поддержкой, проверка системы, обновление компонентов и демонстрация возможностей.">
+    <link rel="image_src" href="https://belportal.by/files/images/logo.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Скачать BELPORTAL: установка, настройка и поддержка">
+    <meta name="twitter:description" content="Загрузите BELPORTAL — удобное приложение для работы с госпорталами. Установка с технической поддержкой, проверка системы, обновление компонентов и демонстрация возможностей.">
+    <meta name="twitter:image" content="https://belportal.by/files/images/logo.png">
+    <meta name="telegram:url" content="https://belportal.by/belPortalDonwload">
+    <meta name="telegram:site" content="belportal">
+    <meta name="telegram:title" content="Скачать BELPORTAL">
+    <meta name="telegram:description" content="     BELPORTAL -      Загрузить  программу     
+    Или    
+   Вы можете заказать установку  BELPORTAL&amp;nbsp;  специалистом  Бесплатно &amp;nbsp;-      ЗАКАЗАТЬ  Установка обычно занимает от 5 до 15 минут.      Какие работы специалист выполнит:      1. Проверит Вашу операционную систему на предмет лишнего программного обеспечения, удалит ненужно ПО. 2. Очистит операционную систему от мусора. 3. Обновит КРИПТОПРОВАЙДЕР AVEST CSP. 4. Установит  BELPORTAL.  5. Произведет необходимые проверки, чтобы  BELPORTAL  работал всегда стабильно. 6. Продемонстрирует работу  BELPORTAL  и его возможности.  Специалист подключается к Вашему компьюетру используя программу &amp;nbsp;  AnyDesk   если этой программы у Вас нет тогда пожалуйста произведите ее установку.          ЗАКАЗАТЬ        Для работы    BELPORTAL&amp;nbsp;  т  ребуются следующие необходимые компоненты:   
+ 
+   Microsoft .NET Framework 4.7.2 (x86 и x64)&amp;nbsp;  Скачать для Windows 7    
+  Microsoft .NET Framework и ошибка отметки времени:  Скачать обновление   
+ 
+ 
+ 
+    В случае белого экрана необходимо установить  WebView2   альтернатива   Если эти компоненты уже установлены, приложение можно   launch    скачать  BELPORTAL    Загрузить  программу   
+ 
+    Обновление корневых сертификатов Windows XP, Windows 7  Скачать утилиту   В противном случае щелкните по кнопке ниже, чтобы установить необходимые компоненты и запустить приложение.&amp;nbsp;     Загрузить пакетный установщик       Ссылки на сайты используемого программного обеспечения Пожалуйста учтите что программа BELPORTAL скачивает всё программное обеспечение с собственных ресурсов дабы обеспечить гарантированное скачивание программ и утилит но при этом при всем я (Никонов Александр Юрьевич (разработчик данной программы)) собственноручно скачиваю данные приложения с официальных ресурсов  КРИПТОПРОВАЙДЕР AVEST CSP&amp;nbsp;  ссылка  КП, NTClientSoftware  ссылка  GsecTLS Client  ссылка  АРМ Плательщик  ссылка  АРМ &amp;laquo;Плательщик ЕАЭС&amp;raquo;  ссылка  Программа &quot;Ввод ДПУ  ссылка  Модуль подписания отчетов (Белгосстрах)  ссылка  NCM Crypto Plugin (  Электронная торговая площадка)  ссылка  
+       ЗАЯВЛЕНИЕ О КОНФИДЕНЦИАЛЬНОСТИ       Сведения о сборе информации      
+ 1. Определения 1.1. ПО &amp;ndash; обозначает программное обеспечение, сопроводительные материалы, обновления, Правообладателем которых является Никонов Александр Юрьевич. 1.2. Правообладатель (обладатель исключительного права на ПО) &amp;ndash; Никонов Александр Юрьевич. 1.3. Компьютер &amp;ndash; операционная система, виртуальная машина или оборудование, включая рабочую станцию, мобильные устройство или сервер, для работы на котором предназначено ПО и/или на которое устанавливается ПО и/или для которого используется ПО. 1.4. Пользователь (Вы) &amp;ndash; физическое лицо, которое устанавливает и/или использует ПО от своего лица или правомерно владеет копией ПО. Если ПО было загружено или приобретено от имени юридического лица, то под термином Пользователь (Вы) далее подразумевается юридическое лицо, для которого ПО было загружено или приобретено и которое поручило отдельному физическому лицу принять данное соглашение от своего лица. 1.5. Партнеры &amp;ndash; организации, осуществляющие распространение ПО на основании договора с Правообладателем. 1.6. Обновление(я) &amp;ndash; улучшения, исправления, расширения и/или модификации ПО. 1.7. Расширения ПО &amp;ndash; дополнительные программные компоненты и программные решения, предоставляемые Правообладателем, расширяющие функциональность ПО, которые могут использоваться как вместе с ПО, так и независимо от него, и для использования которых может потребоваться приобретение отдельной лицензии или расширение действующей лицензии. Расширения ПО могут предоставляться как на безвозмездной основе, так и на платной. С более подробной информацией Вы можете ознакомиться перед получением таких расширений. 1.8. Руководство Пользователя &amp;ndash; сопроводительные печатные и иные материалы, Руководство Пользователя, Руководство Администратора, справочник, файл справки и аналогичные им печатные и электронные документы, Правообладателем которых является Никонов Александр Юрьевич. 1.9. Веб-портал &amp;ndash; веб-ресурс Правообладателя, предназначенный для управления установленным ПО и приобретенными лицензиями. 1.10. Учетная Запись &amp;ndash; персональный раздел на Веб-портале, созданный на основе предоставленных Пользователем данных при регистрации на Веб-портале. Учетная запись позволяет Пользователю получать доступ к Веб-порталу, для осуществления действий, указанных в п.1.9. 
+ 2. Отказ от предоставления гарантий 2.1. Вы соглашаетесь с тем, что ПО предоставляется с включенной опцией автоматического обновления, которая обеспечивает автоматическую загрузку и установку улучшений, исправлений, и/или модификаций ПО и программных компонент, а также новых версий ПО. 2.2. Вы соглашаетесь с тем, что в случае необходимости ПО автоматически загружает расширения для веб-браузеров, необходимые для обеспечения основной функциональности лицензируемого ПО. 2.3. Вы соглашаетесь с тем, что никакое ПО не свободно от ошибок и Вам рекомендуется регулярно создавать резервные копии своих файлов. 2.4. Правообладатель не гарантирует работоспособность ПО при нарушении условий, описанных в Руководстве Пользователя - если таковые имеются. 2.5. Правообладатель не гарантирует Пользователю работоспособность ПО, если Пользователь не осуществляет обновления ПО. 2.6. Вы соглашаетесь с тем, что ПО предоставляется со стандартными настройками, применяемыми по умолчанию, и Вы несете ответственность за вносимые Вами изменения в настройки ПО. 2.7. Вы соглашаетесь с тем, что ПО будет выполнять действия, необходимые для целей функционирования ПО. 2.8. ЗА ИСКЛЮЧЕНИЕМ УСТАНАВЛИВАЕМОЙ В НАСТОЯЩЕМ ПУНКТЕ ОГРАНИЧЕННОЙ ГАРАНТИИ, ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ ПОСТАВЛЯЕТСЯ &quot;КАК ЕСТЬ&quot;. ПРАВООБЛАДАТЕЛЬ И ЕГО ПАРТНЕРЫ НЕ ДАЮТ НИКАКИХ ГАРАНТИЙ НА ЕГО ИСПОЛЬЗОВАНИЕ ИЛИ ПРОИЗВОДИТЕЛЬНОСТЬ. ЗА ИСКЛЮЧЕНИЕМ ГАРАНТИЙ, УСЛОВИЙ, ПРЕДСТАВЛЕНИЙ ИЛИ ПОЛОЖЕНИЙ, СТЕПЕНЬ КОТОРЫХ НЕ МОЖЕТ БЫТЬ ИСКЛЮЧЕНА ИЛИ ОГРАНИЧЕНА В СООТВЕТСТВИИ С ПРИМЕНИМЫМ ЗАКОНОДАТЕЛЬСТВОМ, ПРАВООБЛАДАТЕЛЬ И ЕГО ПАРТНЕРЫ НЕ ДАЮТ НИКАКИХ ГАРАНТИЙ, УСЛОВИЙ, ПРЕДСТАВЛЕНИЙ ИЛИ ПОЛОЖЕНИЙ (ВЫРАЖАЕМЫХ В ЯВНОЙ ИЛИ В ПОДРАЗУМЕВАЕМОЙ ФОРМЕ) НА ВСЕ, ВКЛЮЧАЯ БЕЗ ОГРАНИЧЕНИЙ НЕНАРУШЕНИЕ ПРАВ ТРЕТЬИХ ЛИЦ, КОММЕРЧЕСКОЕ КАЧЕСТВО, ИНТЕГРАЦИЮ ИЛИ ПРИГОДНОСТЬ ДЛЯ ОПРЕДЕЛЕННЫХ ЦЕЛЕЙ. ВЫ СОГЛАШАЕТЕСЬ С ТЕМ, ЧТО ВЫ НЕСЕТЕ ОТВЕТСТВЕННОСТЬ ЗА ВЫБОР ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ ДЛЯ ДОСТИЖЕНИЯ НУЖНЫХ РЕЗУЛЬТАТОВ, ЗА УСТАНОВКУ И ИСПОЛЬЗОВАНИЕ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ, А ТАКЖЕ ЗА РЕЗУЛЬТАТЫ, ПОЛУЧЕННЫЕ С ЕГО ПОМОЩЬЮ. 3. Ограничение ответственности 3.1. В МАКСИМАЛЬНОЙ СТЕПЕНИ, ДОПУСКАЕМОЙ ПРИМЕНИМЫМ ЗАКОНОДАТЕЛЬСТВОМ, ПРАВООБЛАДАТЕЛЬ И/ИЛИ ЕГО ПАРТНЕРЫ НЕ НЕСУТ ОТВЕТСТВЕННОСТИ ЗА КАКИЕ-ЛИБО УБЫТКИ И/ИЛИ УЩЕРБ (В ТОМ ЧИСЛЕ УБЫТКИ В СВЯЗИ С НЕДОПОЛУЧЕННОЙ КОММЕРЧЕСКОЙ ПРИБЫЛЬЮ, ПРЕРЫВАНИЕМ ДЕЯТЕЛЬНОСТИ, УТРАТОЙ ИНФОРМАЦИИ ИЛИ ИНОЙ ИМУЩЕСТВЕННЫЙ УЩЕРБ), ВОЗНИКАЮЩИЕ В СВЯЗИ С ИСПОЛЬЗОВАНИЕМ ИЛИ НЕВОЗМОЖНОСТЬЮ ИСПОЛЬЗОВАНИЯ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ, ДАЖЕ ЕСЛИ ПРАВООБЛАДАТЕЛЬ И ЕГО ПАРТНЕРЫ БЫЛИ УВЕДОМЛЕНЫ О ВОЗМОЖНОМ ВОЗНИКНОВЕНИИ ТАКИХ УБЫТКОВ И/ИЛИ УЩЕРБА. В ЛЮБОМ СЛУЧАЕ ОТВЕТСТВЕННОСТЬ ПРАВООБЛАДАТЕЛЯ И ЕГО ПАРТНЕРОВ ПО ЛЮБОМУ ИЗ ПОЛОЖЕНИЙ НАСТОЯЩЕГО СОГЛАШЕНИЯ ОГРАНИЧИВАЕТСЯ СУММОЙ, ФАКТИЧЕСКИ УПЛАЧЕННОЙ ВАМИ ЗА ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ. НАСТОЯЩИЕ ОГРАНИЧЕНИЯ НЕ МОГУТ БЫТЬ ИСКЛЮЧЕНЫ ИЛИ ОГРАНИЧЕНЫ В СООТВЕТСТВИИ С ПРИМЕНИМЫМ ЗАКОНОДАТЕЛЬСТВОМ. 
+   &amp;nbsp;   ">
+    <meta name="telegram:image" content="https://belportal.by/files/images/logo.png">
+    <link rel="canonical" href="https://belportal.by/belPortalDonwload">
+            <link rel="alternate" hreflang="ru" href="https://belportal.by/belPortalDonwload">
+        <link rel="search" type="application/opensearchdescription+xml" title="https://belportal.by Search" href="https://belportal.by/opensearch.xml" />
+<link href="https://belportal.by/files/images/favicon.svg?v=009" type="image/x-icon" rel="icon">
+<link href="https://belportal.by/files/images/favicon.svg?v=009" type="image/x-icon" rel="shortcut icon">
+            <meta name="yandex-verification" content="e17f270c23f17b18" />
+        
+</head>
+
+<body class="d-flex flex-column other_page">
+    
+        
+                        <header class="header">
+                                <div class="header__top hidden-md-down">
+                    <div class="container">
+                        <div class="f_row align-items-center flex-nowrap justify-content-between">
+        
+                            <div class="d-flex align-items-center f_col justify-content-end">
+                                                                <a class="fn_callback callback d-inline-flex align-items-center" href="#fn_callback" data-language="index_back_call">
+                                    <svg viewBox="0 0 235.129 235.129" width="20px" height="20px"><path fill="currentColor" d="M212.027,84.433l-3.954,0.003c-10.912-40.466-48.044-69.228-90.549-69.228c-42.253,0-79.347,28.769-90.44,69.236l-3.987-0.003C10.361,84.441,0,94.802,0,107.538v25.941c0,12.734,10.361,23.094,23.097,23.094h2.874c3.697,29.087,28.603,51.648,58.681,51.648h5.515c2.926,6.87,9.744,11.699,17.669,11.699h19.455c10.585,0,19.197-8.611,19.197-19.195c0-10.586-8.612-19.199-19.197-19.199h-19.455c-7.923,0-14.739,4.828-17.666,11.695h-5.519c-24.347,0-44.154-19.805-44.154-44.148V92.785c7.758-36.299,40.035-62.576,77.027-62.576c37.237,0,69.551,26.267,77.108,62.548v56.31c0,4.142,3.358,7.5,7.5,7.5h9.9c12.735,0,23.096-10.36,23.096-23.095V107.53C235.129,94.795,224.768,84.433,212.027,84.433zM107.836,196.526h19.455c2.314,0,4.197,1.884,4.197,4.199c0,2.314-1.883,4.195-4.197,4.195h-19.455c-2.313,0-4.195-1.882-4.195-4.195C103.641,198.41,105.522,196.526,107.836,196.526z M15,133.479v-25.941c0-4.464,3.632-8.097,8.09-8.097l2.407,0.002v42.129h-2.4C18.632,141.573,15,137.942,15,133.479z M220.129,133.471c0,4.463-3.632,8.095-8.096,8.095h-2.4V99.435l2.4-0.002c4.464,0,8.096,3.632,8.096,8.097V133.471z"/></svg>                                    <span>Оставить заявку</span>
+                                </a>
+                                                                <div class="switcher d-flex align-items-center">
+                                    <!-- Languages -->
+														
+<!-- Currencies -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__center hidden-md-down" >
+                    <div class="container">
+                        <div class="f_row no_gutters flex-nowrap align-items-center justify-content-between">
+                                                        <div class="fn_menu_switch menu_switcher"></div>
+                                                        <div class="header__logo logo">
+                                                                <a class="logo__link " href="/">
+                                                                            <img src="https://belportal.by/files/images/logo.png?v=020" alt="belportal"/>
+                                                                    </a>
+                                                            </div>
+                                                        <div class="header__menu d-flex flex-wrap">
+                                    
+    
+        <ul class="fn_menu_list menu_group__list menu_group__list--1 menu_group--header">
+                        <li class="menu_group__item menu_group__item--1 ">
+            <a class="menu_group__link"  href="/" >
+                <span>Главная</span>
+            </a>
+            
+        
+        </li>
+                                                <li class="menu_group__item menu_group__item--1 ">
+            <a class="menu_group__link"  href="/belPortalDonwload" >
+                <span>Загрузки</span>
+            </a>
+            
+        <ul class="fn_menu_list menu_group__list menu_group__list--2 menu_group--header">
+                                            </ul>
+        
+        </li>
+                                <li class="menu_group__item menu_group__item--1 ">
+            <a class="menu_group__link"  href="/otzyvy-o-belportal" target="_blank">
+                <span>Отзывы</span>
+            </a>
+            
+        
+        </li>
+                                                <li class="menu_group__item menu_group__item--1 menu_eventer">
+            <a class="menu_group__link"  >
+                <span>Для клиентов </span>
+            </a>
+            
+        <ul class="fn_menu_list menu_group__list menu_group__list--2 menu_group--header">
+                        <li class="menu_group__item menu_group__item--2 ">
+            <a class="menu_group__link"  href="/otkaz-ot-otvetstvennosti" >
+                <span>Отказ от отвественности</span>
+            </a>
+            
+        
+        </li>
+                                <li class="menu_group__item menu_group__item--2 ">
+            <a class="menu_group__link"  href="/zayavlenie-o-konfidentsialnosti" >
+                <span>ЗАЯВЛЕНИЕ О КОНФИДЕНЦИАЛЬНОСТИ</span>
+            </a>
+            
+        
+        </li>
+                                                <li class="menu_group__item menu_group__item--2 ">
+            <a class="menu_group__link"  href="/kakuyu-informatsiyu-sobiraet-belportal" >
+                <span>Сведения о сборе информации</span>
+            </a>
+            
+        
+        </li>
+                                <li class="menu_group__item menu_group__item--2 ">
+            <a class="menu_group__link"  href="/podderzhka" >
+                <span>Поддержка</span>
+            </a>
+            
+        
+        </li>
+                                <li class="menu_group__item menu_group__item--2 ">
+            <a class="menu_group__link"  href="/faq" >
+                <span>Частые вопросы</span>
+            </a>
+            
+        
+        </li>
+                                <li class="menu_group__item menu_group__item--2 ">
+            <a class="menu_group__link"  href="/kontakty-portalov" >
+                <span>Контакты государственных порталов Республики Беларусь</span>
+            </a>
+            
+        
+        </li>
+                                <li class="menu_group__item menu_group__item--2 ">
+            <a class="menu_group__link"  href="/otzyvy-o-belportal" target="_blank">
+                <span>ОТЗЫВЫ BELPORTAL</span>
+            </a>
+            
+        
+        </li>
+                                <li class="menu_group__item menu_group__item--2 ">
+            <a class="menu_group__link"  href="/litsenzionnoe-soglashenie-na-ispolzovanie-programmnogo-obespecheniya-belportal" target="_blank">
+                <span>СОГЛАШЕНИЕ</span>
+            </a>
+            
+        
+        </li>
+                                <li class="menu_group__item menu_group__item--2 ">
+            <a class="menu_group__link"  href="/polzovatelskoe-soglashenie-ob-ispolzovanii-servisa-antivirus-belportal" target="_blank">
+                <span>Соглашения Сервиса антивирус BELPORTAL</span>
+            </a>
+            
+        
+        </li>
+                    </ul>
+        
+        </li>
+                                                <li class="menu_group__item menu_group__item--1 ">
+            <a class="menu_group__link"  href="/buhgalteru" >
+                <span>Бухгалтеру</span>
+            </a>
+            
+        <ul class="fn_menu_list menu_group__list menu_group__list--2 menu_group--header">
+                                                            </ul>
+        
+        </li>
+                                <li class="menu_group__item menu_group__item--1 ">
+            <a class="menu_group__link"  href="/donaty" >
+                <span>Донаты</span>
+            </a>
+            
+        
+        </li>
+                                <li class="menu_group__item menu_group__item--1 menu_eventer">
+            <a class="menu_group__link"  >
+                <span>Е-Паслуга</span>
+            </a>
+            
+        <ul class="fn_menu_list menu_group__list menu_group__list--2 menu_group--header">
+                        <li class="menu_group__item menu_group__item--2 ">
+            <a class="menu_group__link"  href="/e-pasluga---instruktsiya" target="_blank">
+                <span>Помощь (инструкция)</span>
+            </a>
+            
+        
+        </li>
+                                <li class="menu_group__item menu_group__item--2 ">
+            <a class="menu_group__link"  href="/vopros---otvet-e-pasluga" target="_blank">
+                <span>Вопрос - ответ Е-ПАСЛУГА</span>
+            </a>
+            
+        
+        </li>
+                                <li class="menu_group__item menu_group__item--2 ">
+            <a class="menu_group__link"  href="/spravka-ob-elektronnyh-uslugah-oais" target="_blank">
+                <span>Список административных процедур (АП) для субъектов хозяйствовани</span>
+            </a>
+            
+        
+        </li>
+                    </ul>
+        
+        </li>
+                                                                <li class="menu_group__item menu_group__item--1 menu_eventer">
+            <a class="menu_group__link"  >
+                <span>Инструкции</span>
+            </a>
+            
+        <ul class="fn_menu_list menu_group__list menu_group__list--2 menu_group--header">
+                        <li class="menu_group__item menu_group__item--2 ">
+            <a class="menu_group__link"  href="/skko---instruktsiya" >
+                <span>СККО</span>
+            </a>
+            
+        
+        </li>
+                                <li class="menu_group__item menu_group__item--2 ">
+            <a class="menu_group__link"  href="/valyutnye-dogovora---instruktsiya" >
+                <span>Валютные договора</span>
+            </a>
+            
+        
+        </li>
+                                <li class="menu_group__item menu_group__item--2 ">
+            <a class="menu_group__link"  href="/e-pasluga---instruktsiya" >
+                <span>Е-ПАСЛУГА</span>
+            </a>
+            
+        
+        </li>
+                    </ul>
+        
+        </li>
+                    </ul>
+        
+
+                            </div>
+                                                        <div class="header-contact">
+                                <div class="header-contact__inner ">
+                                                                                                                        <div class="header-contact__item header-contact--phone header-contact__item--visible">
+                                                <a class="d-flex align-items-center header-contact__section" href="tel:256008701">
+                                                    <svg width="20px" height="20px" viewBox="0 0 459 459"><path fill="currentColor" d="M433.5,318.75c-30.6,0-61.2-5.1-91.8-15.3c-7.65-2.55-17.851,0-25.5,5.1L260.1,364.65c-71.399-35.7-130.05-96.9-168.3-168.3l56.1-56.1c7.65-7.65,10.2-17.85,5.1-25.5c-7.65-28.05-12.75-58.65-12.75-89.25c0-15.3-10.2-25.5-25.5-25.5H25.5C10.2,0,0,10.2,0,25.5C0,265.2,193.8,459,433.5,459c15.3,0,25.5-10.2,25.5-25.5v-89.25C459,328.95,448.8,318.75,433.5,318.75z M408,229.5h51C459,102,357,0,229.5,0v51C328.95,51,408,130.05,408,229.5z M306,229.5h51c0-71.4-56.1-127.5-127.5-127.5v51C272.85,153,306,186.15,306,229.5z"/></svg>                                                    <span>Viber 25 600 87 01</span>
+                                                </a>
+                                            </div>
+                                                                                                                                                        <div class="header-contact__item header-contact--email ">
+                                            <a class="d-flex align-items-center header-contact__section" href="mailto:info@belportal.by" >
+                                                <span>info@belportal.by</span>
+                                            </a>
+                                        </div>
+                                                                                                                <div class="header-contact__item header-contact--time ">
+                                            <div class="d-flex align-items-center header-contact__section">
+                                                <div class="header-contact__title-s"><p>ПИШИТЕ в VIBER!<br />будние дни <br />с 10 до 12&nbsp; <br />с 16 до 17<br /><br /><a class="link_decor" title="Telegramm" href="https://t.me/belportalby" target="_blank" rel="noopener">Telegramm</a><br /><a class="link_decor" title="VIBER" href="https://invite.viber.com/?g2=AQAeYG738SatNFJwDv33LeTqHKntbglbsr%2BsHY9g67cXG7yMyrZ0Wd96AyRDMLpe" target="_blank" rel="noopener">VIBER</a></p></div>
+                                            </div>
+                                        </div>
+                                                                     </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        
+        <div class="header__bottom">
+                    <div class="fn_header__sticky " data-margin-top="0" data-sticky-for="991" data-sticky-class="is-sticky">
+                        <div class="container">
+                            <div class="header__bottom_panel f_row no_gutters flex-nowrap align-content-stretch justify-content-between">
+                                                                <div class="fn_menu_switch menu_switcher hidden-lg-up">
+                                    <div class="menu_switcher__heading d-flex align-items-center">
+                                        <i class="fa fa-bars catalog_icon"></i>
+                                        <span class="" data-language="index_mobile_menu">Меню</span>
+                                    </div>
+                                </div>
+                                                                <div class="fn_catalog_switch button--blick catalog_button d-lg-flex hidden-md-down fn_categories_menu_switch ">
+                                    <div class="catalog_button__heading d-flex align-items-center ">
+                                        <i class="fa fa-bars catalog_icon"></i>
+                                        <span class="" data-language="index_categories">Продукты</span>
+                                                                                    <span class="catalog_button__arrow"><svg class="arrow_right" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M16.462 12l-9.805-10.188c-0.368-0.371-0.368-0.971 0-1.344 0.368-0.371 0.962-0.371 1.33 0l10.751 10.858c0.368 0.372 0.368 0.973 0 1.344l-10.751 10.858c-0.368 0.372-0.962 0.371-1.33 0-0.368-0.369-0.368-0.971 0-1.344l9.805-10.184z"></path></svg></span>
+                                                                            </div>
+                                 </div>
+                                                                <form id="fn_search" class="fn_search_mob search d-md-flex" action="/all-products">
+                                    <input class="fn_search search__input" type="text" name="keyword" value="" aria-label="search" data-language="index_search" placeholder="Что вы ищете?"/>
+                                    <button class="search__button d-flex align-items-center justify-content-center" aria-label="search" type="submit"></button>
+                                </form>
+                                <div class="header_informers d-flex align-items-center">
+                                                                        <div class="fn_search_toggle header_informers__item d-flex align-items-center justify-content-center hidden-md-up"><svg viewBox="0 0 512 512" width="30px" height="30px"><path fill="currentColor" d="M495,466.2L377.2,348.4c29.2-35.6,46.8-81.2,46.8-130.9C424,103.5,331.5,11,217.5,11C103.4,11,11,103.5,11,217.5   S103.4,424,217.5,424c49.7,0,95.2-17.5,130.8-46.7L466.1,495c8,8,20.9,8,28.9,0C503,487.1,503,474.1,495,466.2z M217.5,382.9   C126.2,382.9,52,308.7,52,217.5S126.2,52,217.5,52C308.7,52,383,126.3,383,217.5S308.7,382.9,217.5,382.9z"/></svg></div>
+                                                                        <div id="wishlist" class="header_informers__item d-flex align-items-center justify-content-center"><!-- Информер избранного (отдаётся аяксом) -->
+    <span class="header_informers__link d-flex align-items-center">
+        <i class="d-flex align-items-center fa fa-heart-o"></i>
+            </span>
+</div>
+                                </div>
+                                                                                                                                                                                                                                        </div>
+                        </div>
+                    </div>
+                </div>
+             
+            </header>
+                
+        <div class="main">
+                
+         
+                    <div class="container">
+                                    <!-- Breadcrumb navigation -->
+
+    <ol itemscope itemtype="https://schema.org/BreadcrumbList" class="breadcrumbs d-flex flex-wrap align-items-center">
+                <li itemprop="itemListElement" itemscope
+            itemtype="https://schema.org/ListItem" class="d-inline-flex align-items-center breadcrumbs__item">
+            <a itemprop="item" href="/">
+                <span itemprop="name" data-language="breadcrumb_home" title="Главная">Главная</span>
+            </a>
+            <meta itemprop="position" content="1" />
+        </li>
+
+                            <li itemprop="itemListElement" itemscope
+                itemtype="https://schema.org/ListItem" class="d-inline-flex align-items-center breadcrumbs__item">
+                <span itemprop="name">Скачать BELPORTAL: установка, настройка и поддержка</span>
+                <meta itemprop="position" content="2" />
+            </li>
+
+                    </ol>
+                                <div class="fn_ajax_content">
+                    <!-- Page template -->
+
+	<div class="block">
+				<div class="block__header block__header--boxed block__header--border">
+			<h1 class="block__heading">
+				<span data-page="25">Скачать BELPORTAL</span>
+			</h1>
+		</div>
+
+				<div class="block block--boxed block--border">
+            <div class="fn_mobile_toogle sidebar appfn d-lg-flex flex-lg-column belportal_nullpasishion_module">
+                
+            </div>
+
+			<div class="block__description"><p><span style="color: #ba372a;"><span style="color: #000000; font-size: 18px;"><span style="font-size: 36px;"><strong>BELPORTAL -</strong> </span><span style="font-size: 36px; color: #2dc26b;"><a class="link_style" style="color: #2dc26b;" title="Загрузить программу" href="/files/uploads/publish/BelPortal.application" target="_blank" rel="noopener"><span style="color: #2dc26b;">Загрузить</span> программу</a></span></span></span></p>
+<p><strong><span style="color: #ba372a;"><span style="color: #000000; font-size: 18px;">Или</span></span></strong></p>
+<p><span style="color: #ba372a;"><span style="color: #000000; font-size: 18px;">Вы можете заказать установку <strong>BELPORTAL&nbsp;</strong> специалистом <strong>Бесплатно</strong>&nbsp;-</span></span><span style="font-size: 18px;"><strong><a class="fn_callback " href="#fn_callback" data-language="index_back_call"> ЗАКАЗАТЬ</a><br />Установка обычно занимает от 5 до 15 минут.<br /></strong></span><strong><span style="color: #ba372a;"><span style="color: #000000; font-size: 18px;">Какие работы специалист выполнит:<br /></span></span></strong><span style="color: #ba372a;"><span style="color: #000000; font-size: 18px;">1. Проверит Вашу операционную систему на предмет лишнего программного обеспечения, удалит ненужно ПО.<br />2. Очистит операционную систему от мусора.<br />3. Обновит КРИПТОПРОВАЙДЕР AVEST CSP.<br />4. Установит <strong>BELPORTAL.<br /></strong>5. Произведет необходимые проверки, чтобы <strong>BELPORTAL </strong>работал всегда стабильно.<br />6. Продемонстрирует работу <strong>BELPORTAL</strong> и его возможности.<br /><span style="font-size: 14px;">Специалист подключается к Вашему компьюетру используя программу</span>&nbsp; <a title="AnyDesk" href="https://anydesk.com/ru/downloads/thank-you?dv=win_exe" target="_blank" rel="noopener">AnyDesk</a><br /><span style="font-size: 14px;">если этой программы у Вас нет тогда пожалуйста произведите ее установку.</span><br /></span></span><span style="color: #ba372a;"><span style="color: #000000; font-size: 18px;"> <span style="font-size: 18px;"><strong><a class="fn_callback " href="#fn_callback" data-language="index_back_call">ЗАКАЗАТЬ</a><br /><br /></strong></span></span></span><span style="color: #000000;">Для работы <span style="color: #ba372a;"><span style="color: #000000; font-size: 18px;"><strong>BELPORTAL&nbsp;</strong> т</span></span>ребуются следующие необходимые компоненты:<br /></span></p>
+<ul style="list-style-type: square;">
+<li><span style="color: #000000;"><span style="color: #000000;">Microsoft .NET Framework 4.7.2 (x86 и x64)&nbsp;<br /><a href="https://support.microsoft.com/en-us/topic/microsoft-net-framework-4-7-2-offline-installer-for-windows-05a72734-2127-a15d-50cf-daf56d5faec2" target="_blank" rel="noopener">Скачать для Windows 7</a><br /></span></span>
+<h1><span style="font-size: 16px;">Microsoft .NET Framework и ошибка отметки времени: <a href="https://www.catalog.update.microsoft.com/search.aspx?q=kb4474419" target="_blank" rel="noopener">Скачать обновление</a></span></h1>
+</li>
+</ul>
+<ul>
+<li><span style="color: #ba372a;"><span style="color: #000000; font-size: 18px;"><strong>В случае белого экрана необходимо установить <a class="link_style" title="WebView2" href="https://developer.microsoft.com/en-us/microsoft-edge/webview2?form=MT00EZ#download" target="_blank" rel="noopener">WebView2</a><br /><a href="http://belportal.by/files/uploads/soft/WebView2Setup.exe">альтернатива</a><br /></strong>Если эти компоненты уже установлены, приложение можно</span> <span style="font-size: 18px;">launch</span> </span><span style="color: #000000;">скачать</span> BELPORTAL <span style="font-size: 24px; color: #2dc26b;"><a class="link_style" style="color: #2dc26b;" title="Загрузить программу" href="/files/uploads/publish/BelPortal.application" target="_blank" rel="noopener"><span style="color: #2dc26b;">Загрузить</span> программу</a></span></li>
+</ul>
+<p><span style="color: #ba372a;"><span style="color: #000000; font-size: 18px;"><strong>Обновление корневых сертификатов Windows XP, Windows 7 <a title="Скачать утилиту" href="/utilita-obnovleniya-kornevyh-sertifikatov-belportal" target="_blank" rel="noopener">Скачать утилиту</a><br /><br />В противном случае щелкните по кнопке ниже, чтобы установить необходимые компоненты и запустить приложение.&nbsp;</strong></span><br /><span style="font-size: 24px; color: #e03e2d;"><a class="link_style" style="color: #e03e2d;" title="Загрузить пакетный установщик" href="/files/uploads/publish/setup.exe">Загрузить пакетный установщик</a></span></span><span style="color: #ba372a;"><span style="color: #000000;"><br /><br />Ссылки на сайты используемого программного обеспечения<br />Пожалуйста учтите что программа BELPORTAL скачивает всё программное обеспечение<br />с собственных ресурсов дабы обеспечить гарантированное скачивание программ и утилит<br />но при этом при всем я (Никонов Александр Юрьевич (разработчик данной программы)) собственноручно скачиваю данные приложения с официальных ресурсов<br /><br />КРИПТОПРОВАЙДЕР AVEST CSP&nbsp; <a href="https://www.avest.by/crypto/csp.htm">ссылка</a><br />КП, NTClientSoftware <a href="https://nces.by/service/po/">ссылка</a><br />GsecTLS Client <a href="https://nces.by/service/po/">ссылка</a><br />АРМ Плательщик <a href="https://lkfl.portal.nalog.gov.by/en/arm_soft">ссылка</a><br />АРМ &laquo;Плательщик ЕАЭС&raquo; <a href="https://nalog.gov.by/software/arm-payer/">ссылка</a><br />Программа "Ввод ДПУ <a href="https://www.ssf.gov.by/ru/po-fonda-ru/">ссылка</a><br />Модуль подписания отчетов (Белгосстрах) <a href="https://reporting.bgs.by/">ссылка</a><br />NCM Crypto Plugin (</span></span>Электронная торговая площадка) <a href="https://goszakupki.by/download/ncmCryptoPlugin_setup.exe?rand=6606" target="_blank" rel="noopener">ссылка</a></p>
+<p><span style="color: #ba372a;"><span style="color: #000000;"><br /><span style="color: #2dc26b;"><a class="link_style" style="color: #2dc26b;" title="ЗАЯВЛЕНИЕ О КОНФИДЕНЦИАЛЬНОСТИ" href="/zayavlenie-o-konfidentsialnosti" target="_blank" rel="noopener"><strong>ЗАЯВЛЕНИЕ О КОНФИДЕНЦИАЛЬНОСТИ</strong></a></span><br /><br /><strong><a title="Сведения о сборе информации" href="/kakuyu-informatsiyu-sobiraet-belportal">Сведения о сборе информации</a></strong><br /></span></span></p>
+<p>1. Определения<br />1.1. ПО &ndash; обозначает программное обеспечение, сопроводительные материалы, обновления,<br />Правообладателем которых является Никонов Александр Юрьевич.<br />1.2. Правообладатель (обладатель исключительного права на ПО) &ndash; Никонов Александр Юрьевич.<br />1.3. Компьютер &ndash; операционная система, виртуальная машина или оборудование, включая<br />рабочую станцию, мобильные устройство или сервер, для работы на котором предназначено ПО<br />и/или на которое устанавливается ПО и/или для которого используется ПО.<br />1.4. Пользователь (Вы) &ndash; физическое лицо, которое устанавливает и/или использует ПО от своего<br />лица или правомерно владеет копией ПО. Если ПО было загружено или приобретено от имени<br />юридического лица, то под термином Пользователь (Вы) далее подразумевается юридическое<br />лицо, для которого ПО было загружено или приобретено и которое поручило отдельному<br />физическому лицу принять данное соглашение от своего лица.<br />1.5. Партнеры &ndash; организации, осуществляющие распространение ПО на основании договора с<br />Правообладателем.<br />1.6. Обновление(я) &ndash; улучшения, исправления, расширения и/или модификации ПО.<br />1.7. Расширения ПО &ndash; дополнительные программные компоненты и программные решения,<br />предоставляемые Правообладателем, расширяющие функциональность ПО, которые могут<br />использоваться как вместе с ПО, так и независимо от него, и для использования которых может<br />потребоваться приобретение отдельной лицензии или расширение действующей лицензии.<br />Расширения ПО могут предоставляться как на безвозмездной основе, так и на платной. С более<br />подробной информацией Вы можете ознакомиться перед получением таких расширений.<br />1.8. Руководство Пользователя &ndash; сопроводительные печатные и иные материалы, Руководство<br />Пользователя, Руководство Администратора, справочник, файл справки и аналогичные им<br />печатные и электронные документы, Правообладателем которых является Никонов Александр Юрьевич.<br />1.9. Веб-портал &ndash; веб-ресурс Правообладателя, предназначенный для управления<br />установленным ПО и приобретенными лицензиями.<br />1.10. Учетная Запись &ndash; персональный раздел на Веб-портале, созданный на основе<br />предоставленных Пользователем данных при регистрации на Веб-портале. Учетная запись<br />позволяет Пользователю получать доступ к Веб-порталу, для осуществления действий, указанных<br />в п.1.9.</p>
+<p>2. Отказ от предоставления гарантий<br />2.1. Вы соглашаетесь с тем, что ПО предоставляется с включенной опцией автоматического<br />обновления, которая обеспечивает автоматическую загрузку и установку улучшений,<br />исправлений, и/или модификаций ПО и программных компонент, а также новых версий ПО.<br />2.2. Вы соглашаетесь с тем, что в случае необходимости ПО автоматически загружает<br />расширения для веб-браузеров, необходимые для обеспечения основной функциональности<br />лицензируемого ПО.<br />2.3. Вы соглашаетесь с тем, что никакое ПО не свободно от ошибок и Вам рекомендуется<br />регулярно создавать резервные копии своих файлов.<br />2.4. Правообладатель не гарантирует работоспособность ПО при нарушении условий, описанных<br />в Руководстве Пользователя - если таковые имеются.<br />2.5. Правообладатель не гарантирует Пользователю работоспособность ПО, если Пользователь<br />не осуществляет обновления ПО.<br />2.6. Вы соглашаетесь с тем, что ПО предоставляется со стандартными настройками,<br />применяемыми по умолчанию, и Вы несете ответственность за вносимые Вами изменения в<br />настройки ПО.<br />2.7. Вы соглашаетесь с тем, что ПО будет выполнять действия, необходимые для целей<br />функционирования ПО.<br />2.8. ЗА ИСКЛЮЧЕНИЕМ УСТАНАВЛИВАЕМОЙ В НАСТОЯЩЕМ ПУНКТЕ ОГРАНИЧЕННОЙ ГАРАНТИИ,<br />ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ ПОСТАВЛЯЕТСЯ "КАК ЕСТЬ". ПРАВООБЛАДАТЕЛЬ И ЕГО ПАРТНЕРЫ<br />НЕ ДАЮТ НИКАКИХ ГАРАНТИЙ НА ЕГО ИСПОЛЬЗОВАНИЕ ИЛИ ПРОИЗВОДИТЕЛЬНОСТЬ. ЗА<br />ИСКЛЮЧЕНИЕМ ГАРАНТИЙ, УСЛОВИЙ, ПРЕДСТАВЛЕНИЙ ИЛИ ПОЛОЖЕНИЙ, СТЕПЕНЬ КОТОРЫХ НЕ<br />МОЖЕТ БЫТЬ ИСКЛЮЧЕНА ИЛИ ОГРАНИЧЕНА В СООТВЕТСТВИИ С ПРИМЕНИМЫМ<br />ЗАКОНОДАТЕЛЬСТВОМ, ПРАВООБЛАДАТЕЛЬ И ЕГО ПАРТНЕРЫ НЕ ДАЮТ НИКАКИХ ГАРАНТИЙ,<br />УСЛОВИЙ, ПРЕДСТАВЛЕНИЙ ИЛИ ПОЛОЖЕНИЙ (ВЫРАЖАЕМЫХ В ЯВНОЙ ИЛИ В<br />ПОДРАЗУМЕВАЕМОЙ ФОРМЕ) НА ВСЕ, ВКЛЮЧАЯ БЕЗ ОГРАНИЧЕНИЙ НЕНАРУШЕНИЕ ПРАВ ТРЕТЬИХ<br />ЛИЦ, КОММЕРЧЕСКОЕ КАЧЕСТВО, ИНТЕГРАЦИЮ ИЛИ ПРИГОДНОСТЬ ДЛЯ ОПРЕДЕЛЕННЫХ ЦЕЛЕЙ.<br />ВЫ СОГЛАШАЕТЕСЬ С ТЕМ, ЧТО ВЫ НЕСЕТЕ ОТВЕТСТВЕННОСТЬ ЗА ВЫБОР ПРОГРАММНОГО<br />ОБЕСПЕЧЕНИЯ ДЛЯ ДОСТИЖЕНИЯ НУЖНЫХ РЕЗУЛЬТАТОВ, ЗА УСТАНОВКУ И ИСПОЛЬЗОВАНИЕ<br />ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ, А ТАКЖЕ ЗА РЕЗУЛЬТАТЫ, ПОЛУЧЕННЫЕ С ЕГО ПОМОЩЬЮ.<br />3. Ограничение ответственности<br />3.1. В МАКСИМАЛЬНОЙ СТЕПЕНИ, ДОПУСКАЕМОЙ ПРИМЕНИМЫМ ЗАКОНОДАТЕЛЬСТВОМ,<br />ПРАВООБЛАДАТЕЛЬ И/ИЛИ ЕГО ПАРТНЕРЫ НЕ НЕСУТ ОТВЕТСТВЕННОСТИ ЗА КАКИЕ-ЛИБО УБЫТКИ<br />И/ИЛИ УЩЕРБ (В ТОМ ЧИСЛЕ УБЫТКИ В СВЯЗИ С НЕДОПОЛУЧЕННОЙ КОММЕРЧЕСКОЙ ПРИБЫЛЬЮ,<br />ПРЕРЫВАНИЕМ ДЕЯТЕЛЬНОСТИ, УТРАТОЙ ИНФОРМАЦИИ ИЛИ ИНОЙ ИМУЩЕСТВЕННЫЙ УЩЕРБ),<br />ВОЗНИКАЮЩИЕ В СВЯЗИ С ИСПОЛЬЗОВАНИЕМ ИЛИ НЕВОЗМОЖНОСТЬЮ ИСПОЛЬЗОВАНИЯ<br />ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ, ДАЖЕ ЕСЛИ ПРАВООБЛАДАТЕЛЬ И ЕГО ПАРТНЕРЫ БЫЛИ<br />УВЕДОМЛЕНЫ О ВОЗМОЖНОМ ВОЗНИКНОВЕНИИ ТАКИХ УБЫТКОВ И/ИЛИ УЩЕРБА. В ЛЮБОМ<br />СЛУЧАЕ ОТВЕТСТВЕННОСТЬ ПРАВООБЛАДАТЕЛЯ И ЕГО ПАРТНЕРОВ ПО ЛЮБОМУ ИЗ ПОЛОЖЕНИЙ<br />НАСТОЯЩЕГО СОГЛАШЕНИЯ ОГРАНИЧИВАЕТСЯ СУММОЙ, ФАКТИЧЕСКИ<br />УПЛАЧЕННОЙ ВАМИ ЗА ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ. НАСТОЯЩИЕ ОГРАНИЧЕНИЯ НЕ МОГУТ<br />БЫТЬ ИСКЛЮЧЕНЫ ИЛИ ОГРАНИЧЕНЫ В СООТВЕТСТВИИ С ПРИМЕНИМЫМ ЗАКОНОДАТЕЛЬСТВОМ.</p>
+<p><span style="color: #ba372a;"><span style="color: #000000;">&nbsp;</span></span></p></div>
+            
+		</div>
+          
+
+    </div>
+
+                </div>
+            </div>
+        
+                    </div>
+
+        <div class="fn_to_top to_top"></div>
+
+    <div>
+        
+    </div>
+
+                            <footer class="footer">
+                <div class="container">
+                    <div class="f_row flex-column flex-md-row justify-content-md-between align-items-start">
+                                                <div class="f_col-lg">
+                            <div class="footer__title d-flex align-items-center justify-content-between">
+                                <span data-language="index_contacts">Контакты</span>
+                                <span class="fn_switch_parent footer__title_arrow hidden-lg-up"><svg class="arrow_right" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M16.462 12l-9.805-10.188c-0.368-0.371-0.368-0.971 0-1.344 0.368-0.371 0.962-0.371 1.33 0l10.751 10.858c0.368 0.372 0.368 0.973 0 1.344l-10.751 10.858c-0.368 0.372-0.962 0.371-1.33 0-0.368-0.369-0.368-0.971 0-1.344l9.805-10.184z"></path></svg></span>
+                            </div>
+                            <div class="footer__content footer__hidden">
+                                                                                                            <div class="footer__contact_item">
+                                            <a class="d-flex align-items-start phone" href="tel:256008701">
+                                                <svg width="20px" height="20px" viewBox="0 0 459 459"><path fill="currentColor" d="M433.5,318.75c-30.6,0-61.2-5.1-91.8-15.3c-7.65-2.55-17.851,0-25.5,5.1L260.1,364.65c-71.399-35.7-130.05-96.9-168.3-168.3l56.1-56.1c7.65-7.65,10.2-17.85,5.1-25.5c-7.65-28.05-12.75-58.65-12.75-89.25c0-15.3-10.2-25.5-25.5-25.5H25.5C10.2,0,0,10.2,0,25.5C0,265.2,193.8,459,433.5,459c15.3,0,25.5-10.2,25.5-25.5v-89.25C459,328.95,448.8,318.75,433.5,318.75z M408,229.5h51C459,102,357,0,229.5,0v51C328.95,51,408,130.05,408,229.5z M306,229.5h51c0-71.4-56.1-127.5-127.5-127.5v51C272.85,153,306,186.15,306,229.5z"/></svg>                                                <span>Viber 25 600 87 01</span>
+                                            </a>
+                                        </div>
+                                                                                                                                        <div class="footer__contact_item">
+                                        <a class="d-flex align-items-start email " href="mailto:info@belportal.by">
+                                            <svg viewBox="0 0 97.02 97.02" width="26px" height="26px"><path fill="currentColor" d="M85.26,12.766H11.34C5.04,12.766,0,17.812,0,24.12v49.2c0,5.887,5.04,10.933,11.34,10.933h74.34c6.3,0,11.34-5.046,11.34-11.354V24.12C96.6,17.812,91.56,12.766,85.26,12.766z M81.06,21.176L48.3,48.51L16.8,21.176H81.06zM85.26,75.844H11.34c-1.68,0-2.94-1.262-2.94-2.944V24.961l36.96,32.38c0.84,0.841,1.68,0.841,2.94,0.841c0.84,0,2.1-0.421,2.52-0.841L88.2,26.223V72.9C88.2,74.582,86.94,75.844,85.26,75.844z"/></svg>                                            <span>info@belportal.by</span>
+                                        </a>
+                                    </div>
+                                                                                                    <div class="footer__contact_item">
+                                        <div class="d-flex align-items-start open_hours">
+                                            <svg width="26px" height="26px" viewBox="0 0 723.266 723.267"><path fill="currentColor" d="M361.104,404.382c12.771,0,24.138-5.546,32.168-14.221h63.635c16.383,0,29.66-13.3,29.66-29.683c0-16.372-13.288-29.683-29.66-29.683H393.25c-6.788-7.363-16.038-12.288-26.496-13.645l-56.697-79.811c-9.503-13.346-28.038-16.487-41.384-6.983c-13.346,9.48-16.487,28.015-7.006,41.383l56.559,79.615c-0.621,2.957-0.978,5.982-0.978,9.124C317.258,384.742,336.897,404.382,361.104,404.382z"/><path fill="currentColor" d="M440.19,65.65l7.007,6.523c6.868,6.408,10.814,15.486,10.814,24.874c0,9.388-3.935,18.443-10.814,24.851l-22.804,21.25c88.555,26.013,154.928,104.132,163.096,198.945h-26.657c-10.906,0-19.777,8.859-19.777,19.777c0,10.941,8.883,19.8,19.777,19.8h26.75c-8.859,102.44-85.713,185.496-185.082,204.215v-42.834c0-5.648-3.359-10.769-8.525-13.035c-5.212-2.243-11.24-1.196-15.383,2.646l-89.049,82.997c-2.865,2.692-4.51,6.455-4.51,10.412c0,3.936,1.645,7.697,4.51,10.39l89.049,82.997c4.143,3.843,10.171,4.89,15.383,2.623c5.166-2.266,8.525-7.386,8.525-13.012v-42.938c0.333-0.022,0.644,0.104,0.978,0.069c149.301-21.031,264.156-149.231,264.156-304.32C667.633,219.841,571.083,100.867,440.19,65.65z"/><path fill="currentColor" d="M265.255,626.223c0-9.389,3.935-18.443,10.815-24.852l22.803-21.25c-88.554-26.013-154.927-104.132-163.096-198.945h26.657c10.907,0,19.777-8.858,19.777-19.777c0-10.941-8.871-19.777-19.777-19.777h-26.749c8.859-102.464,85.712-185.519,185.082-204.238v42.833c0,5.649,3.36,10.769,8.525,13.035c5.212,2.244,11.241,1.196,15.371-2.646l89.049-82.998c2.876-2.692,4.51-6.455,4.51-10.412c0-3.935-1.645-7.697-4.51-10.389L344.664,3.81c-4.142-3.854-10.171-4.89-15.371-2.623c-5.166,2.267-8.525,7.386-8.525,13.012v42.937c-0.333,0.023-0.644-0.115-0.978-0.069C170.488,78.11,55.633,206.311,55.633,361.399c0,142.018,96.539,260.992,227.443,296.22l-7.006-6.512C269.19,644.688,265.255,635.61,265.255,626.223z"/></svg>                                            <p>ПИШИТЕ в VIBER!<br />будние дни <br />с 10 до 12&nbsp; <br />с 16 до 17<br /><br /><a class="link_decor" title="Telegramm" href="https://t.me/belportalby" target="_blank" rel="noopener">Telegramm</a><br /><a class="link_decor" title="VIBER" href="https://invite.viber.com/?g2=AQAeYG738SatNFJwDv33LeTqHKntbglbsr%2BsHY9g67cXG7yMyrZ0Wd96AyRDMLpe" target="_blank" rel="noopener">VIBER</a></p>
+                                        </div>
+                                    </div>
+                                                                <div class="footer__contact_item">
+                                    <a class="fn_callback callback d-inline-flex align-items-center" href="#fn_callback" data-language="index_back_call">
+                                        <svg viewBox="0 0 235.129 235.129" width="20px" height="20px"><path fill="currentColor" d="M212.027,84.433l-3.954,0.003c-10.912-40.466-48.044-69.228-90.549-69.228c-42.253,0-79.347,28.769-90.44,69.236l-3.987-0.003C10.361,84.441,0,94.802,0,107.538v25.941c0,12.734,10.361,23.094,23.097,23.094h2.874c3.697,29.087,28.603,51.648,58.681,51.648h5.515c2.926,6.87,9.744,11.699,17.669,11.699h19.455c10.585,0,19.197-8.611,19.197-19.195c0-10.586-8.612-19.199-19.197-19.199h-19.455c-7.923,0-14.739,4.828-17.666,11.695h-5.519c-24.347,0-44.154-19.805-44.154-44.148V92.785c7.758-36.299,40.035-62.576,77.027-62.576c37.237,0,69.551,26.267,77.108,62.548v56.31c0,4.142,3.358,7.5,7.5,7.5h9.9c12.735,0,23.096-10.36,23.096-23.095V107.53C235.129,94.795,224.768,84.433,212.027,84.433zM107.836,196.526h19.455c2.314,0,4.197,1.884,4.197,4.199c0,2.314-1.883,4.195-4.197,4.195h-19.455c-2.313,0-4.195-1.882-4.195-4.195C103.641,198.41,105.522,196.526,107.836,196.526z M15,133.479v-25.941c0-4.464,3.632-8.097,8.09-8.097l2.407,0.002v42.129h-2.4C18.632,141.573,15,137.942,15,133.479z M220.129,133.471c0,4.463-3.632,8.095-8.096,8.095h-2.4V99.435l2.4-0.002c4.464,0,8.096,3.632,8.096,8.097V133.471z"/></svg>                                        <span>Оставить заявку</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="f_col-lg">
+                            <div class="footer__title d-flex align-items-center justify-content-between">
+                                <span data-language="index_about_store">О нас</span>
+                                <span class="fn_switch_parent footer__title_arrow hidden-lg-up"><svg class="arrow_right" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M16.462 12l-9.805-10.188c-0.368-0.371-0.368-0.971 0-1.344 0.368-0.371 0.962-0.371 1.33 0l10.751 10.858c0.368 0.372 0.368 0.973 0 1.344l-10.751 10.858c-0.368 0.372-0.962 0.371-1.33 0-0.368-0.369-0.368-0.971 0-1.344l9.805-10.184z"></path></svg></span>
+                            </div>
+                            <div class="footer__content footer__menu footer__hidden">
+                                    
+    
+        <ul class="fn_menu_list menu_group__list menu_group__list--1 menu_group--footer">
+                        <li class="menu_group__item menu_group__item--1 ">
+            <a class="menu_group__link"  href="/all-posts" >
+                <span>Блог</span>
+            </a>
+            
+        
+        </li>
+                                <li class="menu_group__item menu_group__item--1 ">
+            <a class="menu_group__link"  href="/faq" >
+                <span>Частые вопросы</span>
+            </a>
+            
+        
+        </li>
+                                <li class="menu_group__item menu_group__item--1 ">
+            <a class="menu_group__link"  href="/contact" >
+                <span>Контакты</span>
+            </a>
+            
+        
+        </li>
+                                <li class="menu_group__item menu_group__item--1 ">
+            <a class="menu_group__link"  href="/otkaz-ot-otvetstvennosti" >
+                <span>Отказ от отвественности</span>
+            </a>
+            
+        
+        </li>
+                                <li class="menu_group__item menu_group__item--1 ">
+            <a class="menu_group__link"  href="/belPortalDonwload" >
+                <span>belPortal</span>
+            </a>
+            
+        
+        </li>
+                                <li class="menu_group__item menu_group__item--1 ">
+            <a class="menu_group__link"  href="/belPortalDonwloadBeta" >
+                <span>belPortal (*Beta)</span>
+            </a>
+            
+        
+        </li>
+                                <li class="menu_group__item menu_group__item--1 ">
+            <a class="menu_group__link"  href="/authors/aleksandr-nikonov" >
+                <span>Разработчик BELPORTAL</span>
+            </a>
+            
+        
+        </li>
+                                <li class="menu_group__item menu_group__item--1 ">
+            <a class="menu_group__link"  href="/zayavlenie-o-konfidentsialnosti" target="_blank">
+                <span>ЗАЯВЛЕНИЕ О КОНФИДЕНЦИАЛЬНОСТИ</span>
+            </a>
+            
+        
+        </li>
+                                <li class="menu_group__item menu_group__item--1 ">
+            <a class="menu_group__link"  href="/kakuyu-informatsiyu-sobiraet-belportal" >
+                <span>Сведения о сборе информации</span>
+            </a>
+            
+        
+        </li>
+                                <li class="menu_group__item menu_group__item--1 ">
+            <a class="menu_group__link"  href="/utilita-obnovleniya-kornevyh-sertifikatov-belportal" target="_blank">
+                <span>BELPORTAL Root Certificate Updater</span>
+            </a>
+            
+        
+        </li>
+                    </ul>
+        
+
+                            </div>
+                        </div>
+                                                <div class="f_col-lg">
+        
+                            <div class="fn_view_content footer__content footer__menu footer__hidden">
+                                                                                                                                                                                    <div class="footer__menu_item opened">
+                                            <a class="footer__menu_link" href="/catalog/programmy">Программы</a>
+                                        </div>
+                                                                                                                                </div>
+                        </div>
+                                                <div class="f_col-lg">
+                            <div class="footer__title footer__title d-flex align-items-center justify-content-between">
+                                <span data-language="subscribe_heading">Подписка</span>
+                                <span class="fn_switch_parent footer__title_arrow hidden-lg-up"><svg class="arrow_right" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M16.462 12l-9.805-10.188c-0.368-0.371-0.368-0.971 0-1.344 0.368-0.371 0.962-0.371 1.33 0l10.751 10.858c0.368 0.372 0.368 0.973 0 1.344l-10.751 10.858c-0.368 0.372-0.962 0.371-1.33 0-0.368-0.369-0.368-0.971 0-1.344l9.805-10.184z"></path></svg></span>
+                            </div>
+                            <div id="subscribe_container" class="footer__content footer__hidden">
+                                <div class="subscribe__title">
+                                    <span data-language="subscribe_promotext">Получайте только полезные статьи!</span>
+                                </div>
+                                <form class="fn_subscribe_form fn_validate_subscribe" method="post">
+                                    <div class="subscribe_form__group">
+                                         <div class="d-flex align-items-center ">
+                                            <div class="form__group form__group--subscribe">
+                                                <input type="hidden" name="subscribe" value="1"/>
+                                                <input class="form__input form__input_subscribe" aria-label="subscribe" type="email" name="subscribe_email" value="" data-format="email" placeholder="Email"/>
+                                            </div>
+                                            <button class="form__button form__button--subscribe" type="submit"><span data-language="subscribe_button">Подписаться</span></button>
+                                        </div>
+                                        <div class="fn_subscribe_success subscribe_success hidden">
+                                            <span data-language="subscribe_sent">Вы были успешно подписаны</span>
+                                        </div>
+                                        
+                                        <div class="fn_subscribe_error subscribe_error hidden">
+                                             <span class="fn_error_text"></span>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                                                                                        <div class="footer__title d-flex align-items-center justify-content-between">
+                                    <span data-language="index_in_networks">Мы в соцсетях:</span>
+                                    <span class="fn_switch_parent footer__title_arrow hidden-lg-up"><svg class="arrow_right" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M16.462 12l-9.805-10.188c-0.368-0.371-0.368-0.971 0-1.344 0.368-0.371 0.962-0.371 1.33 0l10.751 10.858c0.368 0.372 0.368 0.973 0 1.344l-10.751 10.858c-0.368 0.372-0.962 0.371-1.33 0-0.368-0.369-0.368-0.971 0-1.344l9.805-10.184z"></path></svg></span>
+                                </div>
+                                <div class="footer__content footer__social social footer__hidden">
+                                                                            <a class="social__link t" rel="noreferrer" aria-label="" href="https://t.me/BelPortal" target="_blank" title="t">
+                                            <i class="fa fa-t"></i>
+                                        </a>
+                                                                            <a class="social__link invite" rel="noreferrer" aria-label="" href="https://invite.viber.com/?g2=AQAeYG738SatNFJwDv33LeTqHKntbglbsr%2BsHY9g67cXG7yMyrZ0Wd96AyRDMLpe" target="_blank" title="invite">
+                                            <i class="fa fa-invite"></i>
+                                        </a>
+                                                                    </div>
+                                                    </div>
+                    </div>
+                </div>
+                <div class="footer__copyright">
+                    <div class="container">
+                        <div class="f_row flex-column flex-md-row justify-content-center justify-content-md-between align-items-center">
+                                                        <div class="f_col-md footer__payments payments">
+                                <ul class="payments__list d-flex justify-content-md-end align-items-center">
+                                                                    </ul>
+                            </div>
+                                                        <div class="f_col-md flex-md-first d-flex align-items-center copyright">
+                                <div class="d-flex align-items-center">
+                                    <span>© 2026</span>
+                                    <span data-language="index_copyright">BELPORTAL</span>
+                                </div>
+                                <a href="https://Alex-CMS.by" rel="noreferrer" target="_blank" title="Alex-CMS">Alex-CMS.BY</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            
+    <div class="fn_mobile_menu hidden">
+        <ul class="top-nav">
+    <li>
+        <div class="">
+                        <a class="mobile__link " href="/">
+                <img src="https://belportal.by/files/images/logo.png?v=020" alt="belportal"/>
+            </a>
+                    </div>
+    </li>
+</ul>
+<ul class="second-nav">
+            <li>
+            <a href="/">
+                <svg viewBox="0 0 486.988 486.988" width="20px" height="20px"><path fill="currentColor" d="M16.822,284.968h39.667v158.667c0,9.35,7.65,17,17,17h116.167c9.35,0,17-7.65,17-17V327.468h70.833v116.167c0,9.35,7.65,17,17,17h110.5c9.35,0,17-7.65,17-17V284.968h48.167c6.8,0,13.033-4.25,15.583-10.483c2.55-6.233,1.133-13.6-3.683-18.417L260.489,31.385c-6.517-6.517-17.283-6.8-23.8-0.283L5.206,255.785c-5.1,4.817-6.517,12.183-3.967,18.7C3.789,281.001,10.022,284.968,16.822,284.968z M248.022,67.368l181.333,183.6h-24.367c-9.35,0-17,7.65-17,17v158.667h-76.5V310.468c0-9.35-7.65-17-17-17H189.656c-9.35,0-17,7.65-17,17v116.167H90.489V267.968c0-9.35-7.65-17-17-17H58.756L248.022,67.368z"/></svg>                <span data-language="mobile_menu_home">На главную</span>
+            </a>
+        </li>
+        <li>
+        <a>
+            <svg class="catalog_icon" viewBox="0 0 448 512" width="20px" height="20px"><path fill="currentColor" d="M288 48v32c0 6.627-5.373 12-12 12H12C5.373 92 0 86.627 0 80V48c0-6.627 5.373-12 12-12h264c6.627 0 12 5.373 12 12zM12 220h424c6.627 0 12-5.373 12-12v-32c0-6.627-5.373-12-12-12H12c-6.627 0-12 5.373-12 12v32c0 6.627 5.373 12 12 12zm0 256h424c6.627 0 12-5.373 12-12v-32c0-6.627-5.373-12-12-12H12c-6.627 0-12 5.373-12 12v32c0 6.627 5.373 12 12 12zm264-184H12c-6.627 0-12 5.373-12 12v32c0 6.627 5.373 12 12 12h264c6.627 0 12-5.373 12-12v-32c0-6.627-5.373-12-12-12z" class=""></path></svg>            <span data-language="mobile_menu_category">Продукты</span>
+        </a>
+        
+        
+                    <ul class="">
+                                                                                        <li class="">
+                                <a class="" href="/catalog/programmy" data-category="1">
+                                                                         <span>Программы</span>
+                                </a>
+                            </li>
+                                                                        </ul>
+                
+    </li>
+</ul>
+
+    
+    
+        <ul class="fn_menu_list menu_group__list menu_group__list--1 menu_group--mobile">
+                        <li class="menu_group__item menu_group__item--1 ">
+            <a class="menu_group__link"  href="/" >
+                <span>Главная</span>
+            </a>
+            
+        
+        </li>
+                                <li class="menu_group__item menu_group__item--1 ">
+            <a class="menu_group__link"  href="/belPortalDonwload" >
+                <span>Загрузки</span>
+            </a>
+            
+        
+        </li>
+                                <li class="menu_group__item menu_group__item--1 ">
+            <a class="menu_group__link"  href="/all-posts" >
+                <span>Блог</span>
+            </a>
+            
+        
+        </li>
+                                <li class="menu_group__item menu_group__item--1 ">
+            <a class="menu_group__link"  href="/contact" >
+                <span>Контакты</span>
+            </a>
+            
+        
+        </li>
+                                <li class="menu_group__item menu_group__item--1 ">
+            <a class="menu_group__link"  href="/faq" >
+                <span>Частые вопросы</span>
+            </a>
+            
+        
+        </li>
+                                <li class="menu_group__item menu_group__item--1 ">
+            <a class="menu_group__link"  href="/belPortalDonwload" >
+                <span>BELPORTAL актуальное</span>
+            </a>
+            
+        
+        </li>
+                                <li class="menu_group__item menu_group__item--1 ">
+            <a class="menu_group__link"  href="/belPortalDonwloadBeta" >
+                <span>BELPORTAL все версии</span>
+            </a>
+            
+        
+        </li>
+                                <li class="menu_group__item menu_group__item--1 ">
+            <a class="menu_group__link"  href="/otzyvy-o-belportal" target="_blank">
+                <span>Отзывы</span>
+            </a>
+            
+        
+        </li>
+                                <li class="menu_group__item menu_group__item--1 ">
+            <a class="menu_group__link"  href="/otkaz-ot-otvetstvennosti" >
+                <span>Отказ от отвественности</span>
+            </a>
+            
+        
+        </li>
+                                                <li class="menu_group__item menu_group__item--1 ">
+            <a class="menu_group__link"  href="/kakuyu-informatsiyu-sobiraet-belportal" >
+                <span>Сведения о сборе информации</span>
+            </a>
+            
+        
+        </li>
+                                <li class="menu_group__item menu_group__item--1 ">
+            <a class="menu_group__link"  href="/donaty" >
+                <span>Донаты</span>
+            </a>
+            
+        
+        </li>
+                                <li class="menu_group__item menu_group__item--1 ">
+            <a class="menu_group__link"  href="/podderzhka" target="_blank">
+                <span>Помощь</span>
+            </a>
+            
+        
+        </li>
+                    </ul>
+        
+
+
+
+
+<ul>
+    <li>
+        <a class="phone icon icon-phone-callback" href="tel:256008701">
+            <span>Viber 25 600 87 01</span>
+        </a>
+    </li>
+</ul>
+
+<ul>
+    <li>
+        <a class="email icon icon-mail-outline" href="mailto:info@belportal.by">
+            <span>info@belportal.by</span>
+        </a>
+    </li>
+</ul>
+
+
+
+<ul class="bottom-nav social">
+        
+                <li class="">
+        <a class="t" href="https://t.me/BelPortal" target="_blank" title="t">
+            <i class="fa fa-t"></i>
+        </a>
+    </li>
+                    <li class="">
+        <a class="invite" href="https://invite.viber.com/?g2=AQAeYG738SatNFJwDv33LeTqHKntbglbsr%2BsHY9g67cXG7yMyrZ0Wd96AyRDMLpe" target="_blank" title="invite">
+            <i class="fa fa-invite"></i>
+        </a>
+    </li>
+        </ul>
+    </div>
+    
+    <div class="fn_categories_menu hidden">
+        <!-- Desktop categories template -->
+
+
+        
+        <div class="level_1 categories_nav__menu">
+            <ul class="fn_category_scroll categories_menu ">
+                
+                                    <li>
+                        <div class="">
+                                                            <a class="mobile__link " href="/">
+                                    <img src="https://belportal.by/files/images/logo.png?v=020" alt="belportal"/>
+                                </a>
+                                                    </div>
+                    </li>
+                        
+                                                                                        <li class="categories_menu__item">
+                                <a class="categories_menu__link d-flex align-items-center d-flex align-items-center" href="/catalog/programmy" data-category="1">
+                                                                                                                                                    <span class="d-flex align-items-center categories_menu__name">Программы</span>
+                                </a>
+                            </li>
+                                                                        </ul>
+        </div>
+    
+    </div>
+
+        <!-- Callback form -->
+<div class="hidden">
+    <form id="fn_callback" class="form form--boxed popup popup_animated fn_validate_callback" method="post">
+
+        
+                <div class="form__header">
+            <div class="form__title">
+                <svg viewBox="0 0 235.129 235.129" width="20px" height="20px"><path fill="currentColor" d="M212.027,84.433l-3.954,0.003c-10.912-40.466-48.044-69.228-90.549-69.228c-42.253,0-79.347,28.769-90.44,69.236l-3.987-0.003C10.361,84.441,0,94.802,0,107.538v25.941c0,12.734,10.361,23.094,23.097,23.094h2.874c3.697,29.087,28.603,51.648,58.681,51.648h5.515c2.926,6.87,9.744,11.699,17.669,11.699h19.455c10.585,0,19.197-8.611,19.197-19.195c0-10.586-8.612-19.199-19.197-19.199h-19.455c-7.923,0-14.739,4.828-17.666,11.695h-5.519c-24.347,0-44.154-19.805-44.154-44.148V92.785c7.758-36.299,40.035-62.576,77.027-62.576c37.237,0,69.551,26.267,77.108,62.548v56.31c0,4.142,3.358,7.5,7.5,7.5h9.9c12.735,0,23.096-10.36,23.096-23.095V107.53C235.129,94.795,224.768,84.433,212.027,84.433zM107.836,196.526h19.455c2.314,0,4.197,1.884,4.197,4.199c0,2.314-1.883,4.195-4.197,4.195h-19.455c-2.313,0-4.195-1.882-4.195-4.195C103.641,198.41,105.522,196.526,107.836,196.526z M15,133.479v-25.941c0-4.464,3.632-8.097,8.09-8.097l2.407,0.002v42.129h-2.4C18.632,141.573,15,137.942,15,133.479z M220.129,133.471c0,4.463-3.632,8.095-8.096,8.095h-2.4V99.435l2.4-0.002c4.464,0,8.096,3.632,8.096,8.097V133.471z"/></svg>                <span data-language="callback_header">Оставить заявку</span>
+            </div>
+        </div>
+
+        <div class="form__body">
+            
+                        <div class="form__group">
+                <input class="form__input form__placeholder--focus" type="text" name="callback_name" value="" data-language="form_name">
+                <span class="form__placeholder">Имя*</span>
+            </div>
+
+                        <div class="form__group">
+                <input class="form__input form__placeholder--focus" type="text" name="callback_phone" value="" data-language="form_phone">
+                <span class="form__placeholder">Номер телефона*</span>
+            </div>
+
+                        <div class="form__group">
+                <textarea class="form__textarea form__placeholder--focus" rows="3" name="callback_message" data-language="form_enter_message"></textarea>
+                <span class="form__placeholder">Опишите Вашу проблему</span>
+            </div>
+        </div>
+
+        <div class="form__footer">
+                                    <input name="callback" type="hidden" value="1">
+                        <button class="form__button button--blick g-recaptcha" type="submit" name="callback"  value="Заказать">
+                <span data-language="callback_order">Заказать</span>
+            </button>
+        </div>
+    </form>
+</div>
+
+    
+            <div id="fn_pop_up_cart_wrap" class="popup_animated" style="display: none;">
+        <div id="fn_pop_up_cart" class="popup_animated">
+                <div class="block">
+                <div class="h1"><span data-language="cart_header">Корзина</span></div>
+
+        <p class="block padding" data-language="cart_empty">Корзина пуста</p>
+    </div>
+        </div>
+    </div>
+    
+        <div id="fn_compare_confirm" class="popup_bg popup_animated"  style="display: none;">
+        <div class="popup_confirm__title">
+            <svg width="28px" height="28px" viewBox="0 0 510 510" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="currentColor" d="M150.45,206.55l-35.7,35.7L229.5,357l255-255l-35.7-35.7L229.5,285.6L150.45,206.55z M459,255c0,112.2-91.8,204-204,204 S51,367.2,51,255S142.8,51,255,51c20.4,0,38.25,2.55,56.1,7.65l40.801-40.8C321.3,7.65,288.15,0,255,0C114.75,0,0,114.75,0,255 s114.75,255,255,255s255-114.75,255-255H459z"></path></svg>            <span data-language="popup_add_to_compare">Продукт добавлен в сравнение</span>
+        </div>
+    </div>
+
+        <div id="fn_wishlist_confirm" class="popup_bg popup_animated" style="display: none;">
+        <div class="popup_confirm__title">
+            <svg width="28px" height="28px" viewBox="0 0 510 510" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="currentColor" d="M150.45,206.55l-35.7,35.7L229.5,357l255-255l-35.7-35.7L229.5,285.6L150.45,206.55z M459,255c0,112.2-91.8,204-204,204 S51,367.2,51,255S142.8,51,255,51c20.4,0,38.25,2.55,56.1,7.65l40.801-40.8C321.3,7.65,288.15,0,255,0C114.75,0,0,114.75,0,255 s114.75,255,255,255s255-114.75,255-255H459z"></path></svg>            <span data-language="popup_add_to_wishlist">Продукт добавлен в избранное</span>
+        </div>
+    </div>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.devbridge-autocomplete/1.4.11/jquery.autocomplete.min.js"></script>
+
+    <script src="cache/js/alex_shop.footer.339b1df376fd7c13052dbf5146bdebcf.js" defer></script>
+<script src="/dynamic_js/1a858228283b28587b9017bd9486b487.js" defer></script>
+
+
+    
+                        <!-- Yandex.Metrika informer -->
+<a href="https://metrika.yandex.ru/stat/?id=96487647&amp;from=informer"
+target="_blank" rel="nofollow" style="
+    display: flex;
+    justify-content: center;
+    align-items: center;
+"><img src="https://informer.yandex.ru/informer/96487647/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
+style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" class="ym-advanced-informer" data-cid="96487647" data-lang="ru" /></a>
+<!-- /Yandex.Metrika informer -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(96487647, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/96487647" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+            
+    <div>
+        <div class="hidden">
+    <form id="fn_fast_order" class="form form--boxed popup popup_animated fn_validate_fast_order" method="post" action="https://belportal.by/alex-cms/fast-order/create-order"
+                        onsubmit="sendAjaxFastOrderForm(); return false"
+              >
+                <div class="form__header">
+            <div class="form__title">
+                <span data-language="fast_order">Быстрый заказ</span>
+            </div>
+        </div>
+
+        
+        <div class="form__body">
+            <input id="fast_order_variant_id" value="" name="variant_id" type="hidden"/>
+            <input value="" name="amount" type="hidden"/>
+            <input type="hidden" name="IsFastOrder" value="true">
+
+            <div class="message_error fn_fast_order_errors" style="display: none"></div>
+
+            <div id="fast_order_product_name" class="h6"></div>
+
+            <div class="form__group">
+                <input class="fn_validate_fast_name form__input form__placeholder--focus" type="text" name="name" value="" />
+                <span class="form__placeholder" data-language="form_name">Имя*</span>
+            </div>
+
+            <div class="form__group">
+                <input class="fn_validate_fast_name form__input form__placeholder--focus" type="text" name="last_name" value="" />
+                <span class="form__placeholder" data-language="form_name">Фамилия</span>
+            </div>
+
+            <div class="form__group">
+                <input  class="fn_validate_fast_phone form__input form__placeholder--focus" type="text" name="phone" value="" />
+                <span class="form__placeholder" data-language="form_phone">Номер телефона*</span>
+            </div>
+         </div>
+
+        <div class="form__footer">
+                        
+            <input class="form__button button--blick fn_fast_order_submit" type="submit" name="checkout" data-language="callback_order" value="Заказать"/>
+        </div>
+     </form>
+</div>
+    </div>
+
+    </body>
+</html>
+<!--
+memory peak usage: 5818632 bytes
+page generation time: 0.072510957717896 seconds
+-->

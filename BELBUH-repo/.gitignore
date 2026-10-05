@@ -1,0 +1,8 @@
+dist/
+build/
+*.exe
+*.zip
+*.syso
+*.pdb
+.DS_Store
+Thumbs.db
