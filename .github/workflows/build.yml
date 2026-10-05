@@ -1,0 +1,116 @@
+name: Build BELHUB
+
+on:
+  push:
+    branches:
+      - '**'
+    tags:
+      - 'v*'
+    paths:
+      - 'BELBUH-repo/**'
+      - '.github/workflows/build.yml'
+      - 'docs/**'
+      - 'README.md'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'BELBUH-repo/**'
+      - '.github/workflows/build.yml'
+      - 'docs/**'
+      - 'README.md'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: belhub-build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build Windows installer
+    runs-on: windows-latest
+    defaults:
+      run:
+        shell: pwsh
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.25.x'
+          cache: true
+          cache-dependency-path: |
+            BELBUH-repo/cmd/launcher/go.mod
+            BELBUH-repo/cmd/widget/go.mod
+
+      - name: Install resource compiler
+        run: |
+          go install github.com/akavel/rsrc@latest
+          "$(go env GOPATH)\bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
+
+      - name: Install NSIS
+        run: choco install nsis --yes --no-progress
+
+      - name: Add NSIS to PATH
+        run: |
+          $paths = @(
+            "C:\Program Files (x86)\NSIS",
+            "C:\Program Files\NSIS"
+          )
+          foreach ($path in $paths) {
+            if (Test-Path "$path\makensis.exe") {
+              $path | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
+              break
+            }
+          }
+
+      - name: Build application and installer
+        run: .\BELBUH-repo\build.ps1
+
+      - name: Generate SHA-256 checksums
+        run: |
+          $dist = ".\BELBUH-repo\dist"
+          $files = @(
+            "BELHUB-3.2-Setup.exe",
+            "BELHUB-3.2.exe",
+            "BELHUB-Widget.exe",
+            "BELHUB-3.2.html",
+            "widget.html"
+          )
+          $lines = foreach ($file in $files) {
+            $path = Join-Path $dist $file
+            if (Test-Path $path) {
+              $hash = (Get-FileHash $path -Algorithm SHA256).Hash.ToLower()
+              "$hash  $file"
+            }
+          }
+          $lines | Set-Content (Join-Path $dist "SHA256SUMS.txt") -Encoding ascii
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: BELHUB-3.2-windows-${{ github.sha }}
+          path: |
+            BELBUH-repo/dist/BELHUB-3.2-Setup.exe
+            BELBUH-repo/dist/BELHUB-3.2.exe
+            BELBUH-repo/dist/BELHUB-Widget.exe
+            BELBUH-repo/dist/BELHUB-3.2.html
+            BELBUH-repo/dist/widget.html
+            BELBUH-repo/dist/SHA256SUMS.txt
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Publish GitHub Release
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          generate_release_notes: true
+          files: |
+            BELBUH-repo/dist/BELHUB-3.2-Setup.exe
+            BELBUH-repo/dist/SHA256SUMS.txt

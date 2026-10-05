@@ -55,10 +55,12 @@ powershell -ExecutionPolicy Bypass -File .\build.ps1
 
 ## Автоматическая сборка GitHub Actions
 
-Workflow `.github/workflows/build.yml` запускается:
+Workflow расположен в корне репозитория: `.github/workflows/build.yml`. Он запускает этот проект из папки `BELBUH-repo/` через `build.ps1`.
 
-- после каждого push в `main`;
-- для pull request в `main`;
+Workflow запускается:
+
+- после каждого push в любую ветку, если изменились `BELBUH-repo/**`, `.github/workflows/build.yml`, `docs/**` или корневой `README.md`;
+- для pull request в `main` с теми же фильтрами путей;
 - вручную через **Actions → Build BELHUB → Run workflow**;
 - при публикации тега вида `v*`.
 
@@ -67,14 +69,16 @@ Workflow `.github/workflows/build.yml` запускается:
 Для автоматического создания GitHub Release выполните:
 
 ```powershell
-git tag v3.2.0
-git push origin v3.2.0
+git tag v3.2.1
+git push origin v3.2.1
 ```
 
 Workflow создаст Release, сформирует примечания и приложит:
 
 - `BELHUB-3.2-Setup.exe`;
 - `SHA256SUMS.txt`.
+
+Подробная инструкция для продолжения работы: `../docs/CI_AUTOMATION.md`.
 
 ## Безопасность
 
