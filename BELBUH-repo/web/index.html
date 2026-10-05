@@ -94,14 +94,6 @@ const portals=[
     "₽"
   ],
   [
-    "Портал ЭСЧФ VAT",
-    "Налоги",
-    "http://vat.gov.by/",
-    "Электронные счета-фактуры по НДС — ссылка сверена с BELPORTAL",
-    1,
-    "V"
-  ],
-  [
     "Министерство финансов",
     "Налоги",
     "https://www.minfin.gov.by/",
@@ -579,7 +571,7 @@ const cats=["Все",...new Set(portals.map(p=>p[1]))];filters.innerHTML=cats.ma
 function esc(s){return s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 function iconFor(u){if(u==='help:main')return '';try{const h=new URL(u).hostname;return embeddedIcons[h]||('https://'+h+'/favicon.ico')}catch(e){return ''}}
 const supportPhones={
-'nalog.gov.by':['189 / +375 17 229-79-79','+375172297979'],'portal.nalog.gov.by':['189 / +375 17 229-79-79','+375172297979'],'lkfl.portal.nalog.gov.by':['189 / +375 17 229-79-79','+375172297979'],'vat.gov.by':['189 / +375 17 229-79-79','+375172297979'],
+'nalog.gov.by':['189 / +375 17 229-79-79','+375172297979'],'portal.nalog.gov.by':['189 / +375 17 229-79-79','+375172297979'],'lkfl.portal.nalog.gov.by':['189 / +375 17 229-79-79','+375172297979'],
 'ssf.gov.by':['+375 17 382-00-92','+375173820092'],'portal2.ssf.gov.by':['+375 17 382-00-92','+375173820092'],'portal.ssf.gov.by':['+375 17 382-00-92','+375173820092'],
 'nces.by':['+375 17 311-30-00','+375173113000'],'account.gov.by':['+375 17 311-30-00','+375173113000'],'e-pasluga.by':['+375 17 311-30-00','+375173113000'],'pki.gov.by':['+375 17 311-30-00','+375173113000'],'store.nces.by':['+375 17 311-30-00','+375173113000'],
 'rvd.nbrb.by':['+375 17 311-10-11','+375173111011'],
@@ -599,7 +591,7 @@ filters.onclick=e=>{const b=e.target.closest('[data-cat]');if(!b)return;if(b.dat
 async function checkAvailability(u,button){if(u==='help:main'){openHelp();return}button.className='ping testing';button.textContent='…';button.dataset.tip='Идёт проверка доступности';const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),8000);const started=Date.now();try{await fetch(u,{method:'GET',mode:'no-cors',cache:'no-store',signal:controller.signal});const ms=Date.now()-started;button.className='ping online';button.textContent='●';button.dataset.tip='Портал отвечает · '+ms+' мс';toast('Портал отвечает · '+ms+' мс')}catch(e){button.className='ping offline';button.textContent='?';button.dataset.tip='Браузер не разрешил проверку. Это не означает, что сайт недоступен';toast('Статус не определён — браузер мог заблокировать проверку. Попробуйте открыть портал')}finally{clearTimeout(timer)}}
 function portalByURL(u){return portals.find(p=>p[2]===u)}
 const supportLinks={
-'nalog.gov.by':['Контакт-центр МНС','https://nalog.gov.by/contact/'],'portal.nalog.gov.by':['Поддержка МНС','https://nalog.gov.by/contact/'],'lkfl.portal.nalog.gov.by':['Поддержка МНС','https://nalog.gov.by/contact/'],'vat.gov.by':['Поддержка МНС','https://nalog.gov.by/contact/'],
+'nalog.gov.by':['Контакт-центр МНС','https://nalog.gov.by/contact/'],'portal.nalog.gov.by':['Поддержка МНС','https://nalog.gov.by/contact/'],'lkfl.portal.nalog.gov.by':['Поддержка МНС','https://nalog.gov.by/contact/'],
 'ssf.gov.by':['Контакты ФСЗН','https://ssf.gov.by/ru/contacts-ru/'],'portal2.ssf.gov.by':['Контакты ФСЗН','https://ssf.gov.by/ru/contacts-ru/'],'portal.ssf.gov.by':['Контакты ФСЗН','https://ssf.gov.by/ru/contacts-ru/'],
 'belstat.gov.by':['Контакты Белстата','https://www.belstat.gov.by/o-belstate/kontaktnaya-informatsiya/'],'e-respondent.belstat.gov.by':['Поддержка Белстата','https://www.belstat.gov.by/informatsiya-dlya-respondenta/elektronnaya-otchetnost/'],
 'nbrb.by':['Контакты Нацбанка','https://www.nbrb.by/contacts'],'rvd.nbrb.by':['Поддержка регистрации валютных договоров','https://rvd.nbrb.by/nbrbResidentUi/#/'],
