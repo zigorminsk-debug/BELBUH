@@ -4,13 +4,18 @@ package main
 
 import (
 	"fmt"
+	"net/http"
+	"net/url"
 	"os"
 	"os/exec"
 	"path/filepath"
 	"strings"
 	"syscall"
+	"time"
 	"unsafe"
 )
+
+const avTunDownloadURL = "https://avtunproxy.by/windows/"
 
 var (
 	shell32      = syscall.NewLazyDLL("shell32.dll")
@@ -29,9 +34,12 @@ func main() {
 	}
 	exe, _ = filepath.Abs(exe)
 	registerProtocol(exe)
-	if len(os.Args) > 1 && strings.HasPrefix(strings.ToLower(os.Args[1]), "belhub://") {
-		handleCommand(strings.ToLower(strings.TrimRight(os.Args[1], "/")))
-		return
+	if len(os.Args) > 1 {
+		raw := strings.TrimRight(os.Args[1], "/")
+		if strings.HasPrefix(strings.ToLower(raw), "belhub://") {
+			handleCommand(raw)
+			return
+		}
 	}
 	page := filepath.Join(filepath.Dir(exe), "BELHUB-3.2.html")
 	if _, err := os.Stat(page); err != nil {
@@ -57,8 +65,13 @@ func registerProtocol(exe string) {
 	}
 }
 
-func handleCommand(command string) {
-	switch command {
+func handleCommand(raw string) {
+	lower := strings.ToLower(strings.TrimRight(raw, "/"))
+	if strings.HasPrefix(lower, "belhub://avtun") {
+		openWithAvTun(raw)
+		return
+	}
+	switch lower {
 	case "belhub://certificates":
 		openAvestCertificates()
 	case "belhub://support":
@@ -175,6 +188,158 @@ func findAvestFile(names []string, includeShortcuts bool) string {
 		}
 	}
 	return ""
+}
+
+func openWithAvTun(raw string) {
+	target := avTunTarget(raw)
+	if target == "" {
+		showError("Не указан адрес портала для проверки AvTunProxy.")
+		return
+	}
+	if ensureAvTunProxy() {
+		if !open(target, "") {
+			showError("AvTunProxy найден, но портал открыть не удалось.")
+		}
+		return
+	}
+	if askYesNo("Для выбранного портала требуется установленный и запущенный AvTunProxy.\r\n\r\nAvTunProxy не найден на этом компьютере. Скачать установщик с официальной страницы ЗАО «АВЕСТ»?") {
+		open(avTunDownloadURL, "")
+	}
+}
+
+func avTunTarget(raw string) string {
+	parsed, err := url.Parse(raw)
+	if err != nil {
+		return ""
+	}
+	q := parsed.Query().Get("target")
+	if q == "" {
+		return ""
+	}
+	decoded, err := url.QueryUnescape(q)
+	if err == nil {
+		q = decoded
+	}
+	u, err := url.Parse(q)
+	if err != nil || (u.Scheme != "http" && u.Scheme != "https") || u.Host == "" || !isAvTunPortalHost(u.Hostname()) {
+		return ""
+	}
+	return q
+}
+
+func isAvTunPortalHost(host string) bool {
+	switch strings.ToLower(host) {
+	case "portal2.ssf.gov.by", "portal.ssf.gov.by", "rvd.nbrb.by":
+		return true
+	default:
+		return false
+	}
+}
+
+func ensureAvTunProxy() bool {
+	if isAvTunProxyRunning() {
+		return true
+	}
+	if app := findAvTunProxy(); app != "" {
+		_ = open(app, filepath.Dir(app))
+		deadline := time.Now().Add(4 * time.Second)
+		for time.Now().Before(deadline) {
+			time.Sleep(500 * time.Millisecond)
+			if isAvTunProxyRunning() {
+				return true
+			}
+		}
+		// AvTunProxy может быть установлен, но запускать локальный PAC только после
+		// ручного подтверждения пользователя. В этом случае всё равно открываем портал.
+		return true
+	}
+	return false
+}
+
+func isAvTunProxyRunning() bool {
+	client := http.Client{Timeout: 1200 * time.Millisecond}
+	resp, err := client.Get("http://127.0.0.1:10224/proxy.pac")
+	if err != nil {
+		return false
+	}
+	_ = resp.Body.Close()
+	return resp.StatusCode >= 200 && resp.StatusCode < 500
+}
+
+func findAvTunProxy() string {
+	candidates := []string{
+		filepath.Join(os.Getenv("ProgramFiles"), "AvTunProxy", "AvTunProxy.exe"),
+		filepath.Join(os.Getenv("ProgramFiles(x86)"), "AvTunProxy", "AvTunProxy.exe"),
+		filepath.Join(os.Getenv("ProgramFiles"), "Avest", "AvTunProxy", "AvTunProxy.exe"),
+		filepath.Join(os.Getenv("ProgramFiles(x86)"), "Avest", "AvTunProxy", "AvTunProxy.exe"),
+		filepath.Join(os.Getenv("ProgramFiles"), "Avest", "AvTun", "AvTunProxy.exe"),
+		filepath.Join(os.Getenv("ProgramFiles(x86)"), "Avest", "AvTun", "AvTunProxy.exe"),
+		filepath.Join(os.Getenv("LOCALAPPDATA"), "Programs", "AvTunProxy", "AvTunProxy.exe"),
+		filepath.Join(os.Getenv("LOCALAPPDATA"), "AvTunProxy", "AvTunProxy.exe"),
+	}
+	for _, path := range candidates {
+		if fileExists(path) {
+			return path
+		}
+	}
+	if path, err := exec.LookPath("AvTunProxy.exe"); err == nil && fileExists(path) {
+		return path
+	}
+	roots := []string{
+		filepath.Join(os.Getenv("ProgramFiles"), "Avest"),
+		filepath.Join(os.Getenv("ProgramFiles(x86)"), "Avest"),
+		filepath.Join(os.Getenv("ProgramFiles"), "AvTunProxy"),
+		filepath.Join(os.Getenv("ProgramFiles(x86)"), "AvTunProxy"),
+	}
+	for _, root := range roots {
+		if root == "" || !dirExists(root) {
+			continue
+		}
+		var found string
+		_ = filepath.WalkDir(root, func(path string, d os.DirEntry, err error) error {
+			if err != nil {
+				return nil
+			}
+			if d.IsDir() {
+				rel, _ := filepath.Rel(root, path)
+				if strings.Count(rel, string(os.PathSeparator)) > 4 {
+					return filepath.SkipDir
+				}
+				return nil
+			}
+			if strings.EqualFold(d.Name(), "AvTunProxy.exe") {
+				found = path
+				return filepath.SkipAll
+			}
+			return nil
+		})
+		if found != "" {
+			return found
+		}
+	}
+	return ""
+}
+
+func fileExists(path string) bool {
+	if path == "" {
+		return false
+	}
+	info, err := os.Stat(path)
+	return err == nil && !info.IsDir()
+}
+
+func dirExists(path string) bool {
+	if path == "" {
+		return false
+	}
+	info, err := os.Stat(path)
+	return err == nil && info.IsDir()
+}
+
+func askYesNo(text string) bool {
+	const mbYesNoIconQuestion = 0x00000004 | 0x00000020
+	r, _, _ := messageBox.Call(0, uintptr(unsafe.Pointer(utf16(text))), uintptr(unsafe.Pointer(utf16("BELHUB 3.2 — AvTunProxy"))), mbYesNoIconQuestion)
+	return r == 6
 }
 
 func open(target, dir string) bool {

@@ -18,4 +18,7 @@
 
 Workflow **Build BELHUB** запускается после push в GitHub, для pull request в `main`, вручную через вкладку **Actions**, а также при публикации тегов вида `v*`.
 
-Подробная документация и инструкции для следующего агента: [`docs/CI_AUTOMATION.md`](docs/CI_AUTOMATION.md).
+Подробная документация и инструкции для следующего агента:
+
+- [`docs/CI_AUTOMATION.md`](docs/CI_AUTOMATION.md) — сборка и GitHub Actions;
+- [`docs/PORTAL_LINKS_AUDIT.md`](docs/PORTAL_LINKS_AUDIT.md) — сверка ссылок с BELPORTAL и логика AvTunProxy.
