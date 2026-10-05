@@ -52,6 +52,10 @@ Section "BELHUB 3.2 (обязательно)" SEC_MAIN
   CreateShortcut "$SMPROGRAMS\BELHUB\Удалить BELHUB.lnk" "$INSTDIR\Uninstall.exe"
   CreateShortcut "$DESKTOP\BELHUB 3.2.lnk" "$INSTDIR\BELHUB-3.2.exe" "" "$INSTDIR\BELHUB-3.2.exe" 0
   CreateShortcut "$DESKTOP\BELHUB Виджет.lnk" "$INSTDIR\BELHUB-Widget.exe" "" "$INSTDIR\BELHUB-Widget.exe" 0
+  WriteRegStr HKCU "Software\Classes\belhub" "" "URL:BELHUB Local Protocol"
+  WriteRegStr HKCU "Software\Classes\belhub" "URL Protocol" ""
+  WriteRegStr HKCU "Software\Classes\belhub\DefaultIcon" "" "$INSTDIR\BELHUB-3.2.exe,0"
+  WriteRegStr HKCU "Software\Classes\belhub\shell\open\command" "" '"$INSTDIR\BELHUB-3.2.exe" "%1"'
   WriteUninstaller "$INSTDIR\Uninstall.exe"
   WriteRegStr SHCTX "Software\CSL\BELHUB" "InstallDir" "$INSTDIR"
   WriteRegStr SHCTX "Software\Microsoft\Windows\CurrentVersion\Uninstall\BELHUB" "DisplayName" "BELHUB 3.2"
@@ -67,6 +71,7 @@ SectionEnd
 
 Section "Uninstall"
   DeleteRegValue SHCTX "Software\Microsoft\Windows\CurrentVersion\Run" "BELHUB Widget"
+  DeleteRegKey HKCU "Software\Classes\belhub"
   DeleteRegKey SHCTX "Software\Microsoft\Windows\CurrentVersion\Uninstall\BELHUB"
   DeleteRegKey SHCTX "Software\CSL\BELHUB"
   Delete "$DESKTOP\BELHUB 3.2.lnk"

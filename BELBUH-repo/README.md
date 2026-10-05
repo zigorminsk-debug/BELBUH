@@ -21,6 +21,7 @@
 - запуск обновления сертификатов и СОС АВЕСТ;
 - запуск Персонального менеджера сертификатов АВЕСТ;
 - проверка и запуск AnyDesk для удалённой помощи;
+- проверка AvTunProxy перед открытием ФСЗН и регистрации валютных договоров;
 - компактный виджет;
 - установщик с ярлыками и опциональным автозапуском виджета.
 
@@ -55,10 +56,12 @@ powershell -ExecutionPolicy Bypass -File .\build.ps1
 
 ## Автоматическая сборка GitHub Actions
 
-Workflow `.github/workflows/build.yml` запускается:
+Workflow расположен в корне репозитория: `.github/workflows/build.yml`. Он запускает этот проект из папки `BELBUH-repo/` через `build.ps1`.
 
-- после каждого push в `main`;
-- для pull request в `main`;
+Workflow запускается:
+
+- после каждого push в любую ветку, если изменились `BELBUH-repo/**`, `.github/workflows/build.yml`, `docs/**` или корневой `README.md`;
+- для pull request в `main` с теми же фильтрами путей;
 - вручную через **Actions → Build BELHUB → Run workflow**;
 - при публикации тега вида `v*`.
 
@@ -67,14 +70,19 @@ Workflow `.github/workflows/build.yml` запускается:
 Для автоматического создания GitHub Release выполните:
 
 ```powershell
-git tag v3.2.0
-git push origin v3.2.0
+git tag v3.2.1
+git push origin v3.2.1
 ```
 
 Workflow создаст Release, сформирует примечания и приложит:
 
 - `BELHUB-3.2-Setup.exe`;
 - `SHA256SUMS.txt`.
+
+Подробные инструкции для продолжения работы:
+
+- `../docs/CI_AUTOMATION.md` — автоматическая сборка;
+- `../docs/PORTAL_LINKS_AUDIT.md` — сверка порталов с BELPORTAL и AvTunProxy.
 
 ## Безопасность
 
